@@ -1,0 +1,33 @@
+/**
+ * Front-end only RBC styles.
+ */
+.bw-booking {
+  .rbc-calendar,
+  .ui-alert {
+    max-width: 98vw; // Leave padding when full width.
+    margin: 0 auto;
+  }
+  .rbc-calendar {
+    .rbc-time-view {
+      background: white;
+      .rbc-time-header {
+        .rbc-header { // Day header text (`19 Wed`).
+          font-size: 1em;
+          line-height: 2em;
+          a[href="#"] {
+            pointer-events: none; // Not sure why it's a link in the first place.
+          }
+          &.rbc-today {
+            background-color: transparent;
+          }
+        }
+      }
+      .rbc-time-content {
+        overflow-x: hidden; // Hide horizontal scrollbar when events dont fit.
+      }
+      .rbc-timeslot-group {
+        min-height: 100px; // Make sure there is enough room for the "Book" button in the event.
+      }
+    }
+  }
+}

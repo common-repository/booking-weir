@@ -1,0 +1,7 @@
+/**
+ * Import namespaced rbc styles.
+ */
+.bw-root {
+  @import '../../../node_modules/react-big-calendar/lib/sass/styles.scss';
+  @import '../../../node_modules/react-big-calendar/lib/addons/dragAndDrop/styles.scss';
+}

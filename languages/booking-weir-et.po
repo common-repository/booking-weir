@@ -1,0 +1,4288 @@
+# Copyright (C) 2022 websevendev
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Booking Weir 1.0.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/booking-weir\n"
+"Last-Translator: \n"
+"Language-Team: Estonian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-01-04T13:33:23+02:00\n"
+"PO-Revision-Date: 2022-01-27 07:58+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: booking-weir\n"
+"Language: et\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.5.8; wp-5.9"
+
+#: includes/core/booking/Field.php:259
+msgid "\"%1$s\" must equal or greater than %2$d."
+msgstr "\"%1$s\" peab olema võrdne või suurem kui %2$d."
+
+#: includes/core/booking/Field.php:267
+msgid "\"%1$s\" must equal or less than %2$d."
+msgstr "\"%1$s\" peab olema võrdne või väiksem kui %2$d."
+
+#: includes/core/booking/Field.php:226
+msgid "\"%s\" must be a numeric value."
+msgstr "\"%s\" peab olema arvväärtus."
+
+#: includes/core/booking/paymentmethods/PayPal.php:119
+msgid "%1$sClick here to pay with PayPal.%2$s"
+msgstr "%1$Vajutage siia PayPaliga maksmiseks.%2$s"
+
+#: includes/core/booking/paymentmethods/Stripe.php:137
+msgid "%1$sClick here to pay with Stripe.%2$s"
+msgstr "%1$Vajutage siia Stripe'iga maksmiseks.%2$s"
+
+#: includes/core/Shortcode.php:128
+msgid "%1$sView booking product%2$s"
+msgstr "%1$sVaata broneeritavat toodet%2$s"
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgid "%s has been selected."
+msgstr "%s on valitud."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "(no title)"
+msgstr "(pealkiri puudub)"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "+%s more"
+msgstr "+%s veel"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid ""
+"A calendar contains bookings and events. Bookings in a calendar cannot "
+"overlap, but you can create multiple calendars such as \"Room 1\" and \"Room "
+"2\" to have multiple bookings for different resources or services at the "
+"same time. Each calendar has their own settings for booking availability "
+"times, how much it costs, payment, notification e-mails etc."
+msgstr "Kalender hoiustab broneeringuid ja sündmusi."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:120
+msgid "A WooCommerce product that represents bookings in this calendar."
+msgstr "WooCommerce'i toode, mis esindab broneeringuid selles kalendris."
+
+#: templates/about.php:11
+msgid "About"
+msgstr "Info"
+
+#: includes/core/admin/About.php:64 includes/core/admin/About.php:65
+msgctxt "About page menu item name"
+msgid "About"
+msgstr "Seisukord"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Accepted mime types"
+msgstr "Aktsepteeritud miimitüübid"
+
+#: includes/core/admin/EventList.php:54 templates/about.php:44
+msgid "Actions"
+msgstr "Toimingud"
+
+#: build/admin.js:1 dev/AddHolidays.js:144 dist/admin.js:1
+msgid "Add"
+msgstr "Lisa"
+
+#: dev/AddHolidays.js:144
+msgid "Add again"
+msgstr "Lisa uuesti"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Add booking"
+msgstr "Lisa broneering"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Add date..."
+msgstr "Lisa kuupäev..."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Add final date..."
+msgstr "Lisa viimane kuupäev..."
+
+#: dev/AddHolidays.js:64 dev/AddHolidays.js:75
+msgid "Add holidays"
+msgstr "Lisa tähtpäevasid"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Add ignored date..."
+msgstr "Lisa ignoreeritud kuupäev..."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Add option"
+msgstr "Lisa valik"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:470
+msgid "Additional content for invoice PDF."
+msgstr "Täiendav sisu PDF arves."
+
+#: includes/config/DEFAULT_FIELDS.php:44 build/admin.js:1 build/shortcode.js:1
+#: dist/admin.js:1 dist/shortcode.js:1
+msgid "Additional info"
+msgstr "Lisainfo"
+
+#: build/admin.js:1
+msgid "Adds a fixed amount to the price of the booking."
+msgstr "Lisab broneeringu hinnale kindla summa."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:303
+msgid "Admin e-mails to notify when a new booking is made."
+msgstr ""
+"Administraatorite e-mailid, mida teavitatakse uue broneeringu tegemisest."
+
+#: includes/core/booking/Booking.php:733
+msgid "Admin link"
+msgstr "Haldus link"
+
+#: includes/config/EVENT_META_SCHEMA.php:296
+msgid "Admin notes for the event"
+msgstr "Administraatori märkmed sündmuse kohta"
+
+#: build/admin.js:1
+msgid ""
+"After adding new rules, test them on the front end to ensure they work as "
+"you intended."
+msgstr ""
+"Pärast uute reeglite lisamist testige neid esiosas, et veenduda, et need "
+"toimivad soovitud viisil."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Agenda"
+msgstr "Päevakord"
+
+#: includes/core/admin/EventList.php:244
+msgid "All calendars"
+msgstr "Kõik kalendrid"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "All day"
+msgstr "Terve päev"
+
+#: includes/core/admin/EventList.php:275
+msgid "All statuses"
+msgstr "Kõik olekud"
+
+#: includes/core/admin/EventList.php:258
+msgid "All types"
+msgstr "Kõik tüübid"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:251
+msgid ""
+"Allow only booking services. Available services can be configured from the "
+"\"Services\" page."
+msgstr ""
+"Luba ainult broneerimida teenused. Saadaolevaid teenuseid saab seadistada "
+"lehel \"Teenused\"."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:242
+msgid ""
+"Allow only booking times in predefined slots. You can add slots by creating "
+"events of type \"Slot\" in the calendar. Creating a regular \"Event\" and "
+"making it \"Bookable\" also counts as a slot."
+msgstr ""
+"Luba broneerimist ainult pesadess. Pesasid saab lisada luues kalendris "
+"sündmusi, mille tüüp on \"Pesa\". Tavalise \"Sündmuse\" loomine ja selle "
+"broneeritavaks muutmine läheb samuti arvesse pesana."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA__premium_only.php:19
+msgid "Allow using multiple (comma separated) coupons at once."
+msgstr "Lubage kasutada korraga mitut (komadega eraldatud) kupongi."
+
+#: build/admin.js:1
+msgid ""
+"Allows to choose a numeric value. Price will be calculated based on the "
+"amount selected."
+msgstr ""
+"Võimaldab valida numbrilise väärtuse. Hind arvutatakse valitud summa alusel."
+
+#: build/admin.js:1
+msgid ""
+"Allows to select a time duration shorter or as long as the booking. Price "
+"will be calculated based on the duration."
+msgstr ""
+"Võimaldab valida broneeringust lühema või sama pika aja. Hind arvutatakse "
+"kestuse alusel."
+
+#: includes/core/booking/RuleRegistry.php:324
+msgid ""
+"Allows to use multiple rules and apply a price modification when any or all "
+"of the rules match."
+msgstr ""
+"Võimaldab kasutada mitut reeglit ja rakendada hinnamuudatust, kui mõni või "
+"kõik reeglid kehtivad."
+
+#: build/admin.js:1
+msgid "Alter price by fixed amount"
+msgstr "Muuda hinda fikseeritud summa võrra"
+
+#: build/admin.js:1
+msgid "Alter price by percent value"
+msgstr "Muuda hinda protsendi võrra"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Amount"
+msgstr "Kogus"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:66
+msgid "Amount of minutes that should be left between consecutive events."
+msgstr "Minutite arv, mis peaks jääma järjestikuste sündmuste vahele."
+
+#: includes/integrations/woocommerce/WooCommerce.php:162
+msgid "An expired booking was removed from the cart."
+msgstr "Aegunud broneering eemaldati ostukorvist."
+
+#: includes/core/booking/paymentmethods/BankTransfer.php:31
+msgid ""
+"An invoice for %3$s of the total amount has been attached to this e-mail."
+msgstr "Sellele e-kirjale on manustatud arve %3$s kogusummast."
+
+#: includes/core/booking/paymentmethods/OnSite.php:31
+msgid ""
+"An invoice for %3$s of the total amount has been attached to this e-mail. "
+"You can pay for it on-site."
+msgstr ""
+"Sellele e-kirjale on manustatud arve %3$s kogusummast. Selle eest saab "
+"tasuda kohapeal."
+
+#: includes/core/booking/paymentmethods/BankTransfer.php:30
+msgid "An invoice has been attached to this e-mail."
+msgstr "Sellele e-kirjale on manustatud arve."
+
+#: includes/core/booking/paymentmethods/OnSite.php:30
+msgid ""
+"An invoice has been attached to this e-mail. You can pay for it on-site."
+msgstr "Sellele e-kirjale on manustatud arve. Selle eest saab tasuda kohapeal."
+
+#: includes/core/booking/paymentmethods/Stripe.php:42
+msgid "API secret key"
+msgstr "API salajane võti"
+
+#: includes/core/booking/PriceCalculator.php:325
+msgid "Applied coupon: %s."
+msgid_plural "Applied coupons: %s."
+msgstr[0] "Rakendatud kupong: %s."
+msgstr[1] "Rakendatud kupongid: %s."
+
+#: build/admin.js:1
+msgid ""
+"Applies a fixed price for the whole duration of the event. Does not apply to "
+"the cost of extras."
+msgstr ""
+"Rakendab fikseeritud hinna kogu ürituse toimumise ajaks. Ei kehti lisadele."
+
+#: includes/core/booking/RuleRegistry.php:30
+msgid "Applies a modifier on selected week days."
+msgstr "Rakendab modifikaatori valitud nädalapäevadel."
+
+#: includes/core/booking/RuleRegistry.php:174
+msgid "Applies a modifier when a valid coupon is inserted."
+msgstr "Kehtiva kupongi sisestamisel rakendab modifikaatori."
+
+#: includes/core/booking/RuleRegistry.php:296
+msgid "Applies a modifier when the booking has a specific extra selected."
+msgstr "Rakendab modifikaatori, kui broneeringus on valitud konkreetne lisa."
+
+#: includes/core/booking/RuleRegistry.php:100
+msgid ""
+"Applies a modifier when the booking is created for a certain date window for "
+"a certain time."
+msgstr ""
+"Rakendab modifikaatori, kui broneering luuakse kindlas kuupäeva vahemikus "
+"teatud ajale."
+
+#: includes/core/booking/RuleRegistry.php:80
+msgid ""
+"Applies a modifier when the booking is created for a certain date window."
+msgstr ""
+"Rakendab modifikaatori, kui broneering luuakse teatud kuupäeva vahemikus."
+
+#: includes/core/booking/RuleRegistry.php:56
+msgid ""
+"Applies a modifier when the booking is created for a certain time window."
+msgstr "Rakendab modifikaatori, kui broneering luuakse teatud ajavahemikule."
+
+#: includes/core/booking/RuleRegistry.php:152
+msgid ""
+"Applies a modifier when the booking is created for a specific date, any year."
+msgstr ""
+"Rakendab modifikaatori, kui broneering luuakse konkreetseks kuupäevaks, mis "
+"tahes aastal."
+
+#: includes/core/booking/RuleRegistry.php:135
+msgid "Applies a modifier when the booking is created for a specific date."
+msgstr ""
+"Rakendab modifikaatori, kui broneering luuakse konkreetseks kuupäevaks."
+
+#: includes/core/booking/RuleRegistry.php:264
+msgid "Applies a modifier when the booking is for a specified service."
+msgstr "Rakendab modifikaatori, kui broneering on määratud teenuse jaoks."
+
+#: includes/core/booking/RuleRegistry.php:246
+msgid ""
+"Applies a modifier when the duration of the booking surpasses a specified "
+"amount."
+msgstr "Rakendab modifikaatori, kui broneeringu kestus ületab määratud aja."
+
+#: includes/core/admin/EventList.php:92
+msgid "Apply a filter showing all events from missing calendar"
+msgstr "Rakenda filter, mis näitab kõiki puuduva kalendri sündmusi"
+
+#: build/admin.js:1
+msgid "Apply a fixed price for the event duration and extras added up."
+msgstr "Määra fikseeritud hind ürituse kestuse ja lisade eest."
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgid "Apply coupon"
+msgstr "Rakenda kupong"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Attach"
+msgstr "Seo"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:443
+msgid "Author of the document, stored in the PDF metadata."
+msgstr "Dokumendi autor, salvestatud PDF-i metaandmetesse."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:415
+msgid "Automatic deletion"
+msgstr "Automaatne kustutamine"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:406
+msgid "Automatic regeneration"
+msgstr "Automaatne uuesti-genereerimine"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Automatic reminders are not enabled"
+msgstr "Automaatsed meeldetuletused pole lubatud"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:407
+msgid "Automatically regenerate the PDF invoice when the booking data changes."
+msgstr ""
+"Broneerimisandmete muutumisel genereerige PDF-arve automaatselt uuesti."
+
+#: includes/core/booking/paymentmethods/PayPal.php:39
+#: includes/core/booking/paymentmethods/PayPal.php:47
+msgid "Available from PayPal developer dashboard."
+msgstr "Saadaval PayPali arendaja keskusest."
+
+#: includes/core/booking/paymentmethods/Stripe.php:43
+msgid "Available from Stripe dashboard."
+msgstr "Saadaval Stripe'i keskusest."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Available template strings"
+msgstr "Šabloontekstid"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:94
+msgid ""
+"Available width required for the calendar to display a whole week instead of "
+"a single day."
+msgstr ""
+"Laius, mis on vajalik selleks, et kalender kuvaks ühe päeva asemel terve "
+"nädala."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Back to calendar"
+msgstr "Tagasi kalendrisse"
+
+#: includes/core/booking/paymentmethods/BankTransfer.php:47
+msgctxt "Bank transfer: Payment message content."
+msgid "%1$sInvoice%2$s has been sent to your e-mail."
+msgstr "%1$sArve%2$s on saadetud teie e-postile."
+
+#: includes/core/booking/paymentmethods/BankTransfer.php:48
+msgctxt "Bank transfer: Payment message content."
+msgid ""
+"Failed to send invoice to your e-mail, please open it from %1$shere%2$s."
+msgstr ""
+"Arve saatmine teie e-postile ebaõnnestus, palun avage see %1$ssiit%2$s."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:452
+msgid "Big header displayed in the top left corner of the PDF document."
+msgstr "PDF-dokumendi vasakus ülanurgas kuvatav suur pealkiri."
+
+#: includes/config/EVENT_META_SCHEMA.php:158
+msgid "Billing ID, year and event ID combined"
+msgstr "Arvelduse ID, aasta ja sündmuse ID kombineeritud"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Billing info can be changed by editing the order: "
+msgstr "Arveldusteavet saab muuta tellimust muutes:"
+
+#: includes/core/Pdf.php:150
+msgid "Billing is handled by WooCommerce."
+msgstr "Arveldamisega tegeleb WooCommerce."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Bookable"
+msgstr "Broneeritav"
+
+#: includes/core/booking/Booking.php:266
+msgid "Bookable event not found."
+msgstr "Broneeritavat sündmust ei leitud."
+
+#: includes/core/booking/Booking.php:605
+msgid "Booked"
+msgstr "Broneeritud"
+
+#: includes/core/events/Event.php:115
+msgctxt "Booked event in WC cart, checkout not yet completed"
+msgid "Reserved"
+msgstr "Reserveeritud"
+
+#: includes/core/events/Event.php:117
+msgctxt "Booked event public title"
+msgid "Booked"
+msgstr "Broneeritud"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Booker"
+msgstr "Broneerija"
+
+#: includes/core/booking/Booking.php:147 includes/core/booking/Booking.php:696
+msgid "Booking"
+msgstr "Broneering"
+
+#: includes/config/EVENT_META_SCHEMA.php:277
+msgid "Booking additional info"
+msgstr "Broneerimise lisainfo"
+
+#: includes/config/EVENT_META_SCHEMA.php:258
+msgid "Booking booker e-mail"
+msgstr "Broneerija e-post"
+
+#: includes/config/EVENT_META_SCHEMA.php:240
+msgid "Booking booker first name"
+msgstr "Broneerija eesnimi"
+
+#: includes/config/EVENT_META_SCHEMA.php:249
+msgid "Booking booker last name"
+msgstr "Broneerija perekonnanimi"
+
+#: includes/config/EVENT_META_SCHEMA.php:268
+msgid "Booking booker phone number"
+msgstr "Broneerija telefoninumber"
+
+#: includes/config/EVENT_META_SCHEMA.php:130
+msgid "Booking breakdown"
+msgstr "Broneeringu kokkuvõte"
+
+#: includes/core/booking/Booking.php:650
+msgctxt "Booking confirmation e-mail title"
+msgid "Booking received"
+msgstr "Broneering kätte saadud"
+
+#: includes/core/booking/Booking.php:215
+msgid "Booking contains invalid keys: \"%s\"."
+msgstr "Broneering sisaldab vigaseid võtmeid: \"%s\"."
+
+#: includes/core/booking/Booking.php:588
+msgid "Booking could not be added to cart."
+msgstr "Broneeringut ei saanud ostukorvi lisada."
+
+#: includes/core/events/Event.php:677
+msgctxt "Booking date formatted - date, start time, end time"
+msgid "%1$s, %2$s - %3$s"
+msgstr "%1$s, %2$s - %3$s"
+
+#: includes/core/booking/Booking.php:863
+msgid "Booking errors"
+msgstr "Broneerimisvead"
+
+#: includes/config/EVENT_META_SCHEMA.php:102
+msgid "Booking extras"
+msgstr "Broneerimise lisad"
+
+#: includes/config/EVENT_META_SCHEMA.php:286
+msgid "Booking fields"
+msgstr "Broneerimisväljad"
+
+#: includes/core/events/EventPostType.php:547
+msgid "Booking for this service must be %d minutes long."
+msgstr "Selle teenuse broneering peab kestma %d minutit."
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgid "Booking info"
+msgstr "Broneerimisinfo"
+
+#: includes/core/booking/paymentmethods/PayPal.php:155
+#: includes/core/booking/paymentmethods/Stripe.php:166
+msgid "Booking is no longer pending payment."
+msgstr "Broneering ei ole enam tasumisel."
+
+#: includes/core/events/EventPostType.php:531 build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Booking is only allowed less than %s in advance."
+msgstr "Broneerimine on lubatud ainult vähem kui %s ette."
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgctxt "Booking modal add to cart button"
+msgid "Add to cart"
+msgstr "Lisa ostukorvi"
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgctxt "Booking modal back button"
+msgid "Back"
+msgstr "Tagasi"
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgctxt "Booking modal confirm booking button"
+msgid "Book"
+msgstr "Broneeri"
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgctxt "Booking modal final step title"
+msgid "Confirm booking"
+msgstr "Kinnita broneering"
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgctxt "Booking modal first step title"
+msgid "Booking"
+msgstr "Broneerimine"
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgctxt "Booking modal forward button"
+msgid "Proceed"
+msgstr "Edasi"
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgctxt "Booking modal info collection title"
+msgid "Info"
+msgstr "Andmed"
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgctxt "Booking modal terms and conditions checkbox label"
+msgid "I agree with the %1$sterms and conditions%2$s"
+msgstr "Nõustun %1$stingimustega%2$s"
+
+#: includes/core/booking/Booking.php:148
+msgid "Booking not found."
+msgstr "Broneeringut ei leitud."
+
+#: includes/config/EVENT_META_SCHEMA.php:140
+msgid "Booking payment method"
+msgstr "Broneeringu makseviis"
+
+#: includes/config/EVENT_META_SCHEMA.php:149
+msgid "Booking payment type ID"
+msgstr "Broneeringu makse tüübi ID"
+
+#: includes/config/EVENT_META_SCHEMA.php:121
+msgid "Booking price"
+msgstr "Broneerimise hind"
+
+#: includes/integrations/woocommerce/Product.php:133
+msgctxt "Booking product add to cart text."
+msgid "Book"
+msgstr "Broneeri"
+
+#: includes/integrations/woocommerce/WooCommerce.php:93
+#: tests/phpunit/integration/integrations/woocommerce/WooCommerceTest.php:54
+msgctxt "Booking product calendar tab title."
+msgid "Booking"
+msgstr "Broneerimine"
+
+#: includes/integrations/woocommerce/Product.php:109
+msgctxt "Booking product price."
+msgid "%s/hour"
+msgstr "%s/tund"
+
+#: includes/core/booking/Booking.php:660
+msgctxt "Booking received confirmation e-mail failed to send notice title"
+msgid "Confirmation"
+msgstr "Kinnitus"
+
+#: includes/config/EVENT_META_SCHEMA.php:230
+msgid "Booking status"
+msgstr "Broneeringu olek"
+
+#: includes/config/BOOKING_STATUSES.php:77
+msgctxt "Booking status"
+msgid "Archived"
+msgstr "Arhiveeritud"
+
+#: includes/config/BOOKING_STATUSES.php:29
+msgctxt "Booking status"
+msgid "Awaiting"
+msgstr "Ootel"
+
+#: includes/config/BOOKING_STATUSES.php:65
+msgctxt "Booking status"
+msgid "Cancelled"
+msgstr "Tühistatud"
+
+#: includes/config/BOOKING_STATUSES.php:59
+msgctxt "Booking status"
+msgid "Completed"
+msgstr "Täidetud"
+
+#: includes/config/BOOKING_STATUSES.php:35
+msgctxt "Booking status"
+msgid "Confirmed"
+msgstr "Kinnitatud"
+
+#: includes/config/BOOKING_STATUSES.php:15
+msgctxt "Booking status"
+msgid "Detached"
+msgstr "Eraldatud"
+
+#: includes/config/BOOKING_STATUSES.php:47
+msgctxt "Booking status"
+msgid "Escrow paid"
+msgstr "Osaliselt tasutud"
+
+#: includes/config/BOOKING_STATUSES.php:8
+msgctxt "Booking status"
+msgid "In cart"
+msgstr "Ostukorvis"
+
+#: includes/config/BOOKING_STATUSES.php:53
+msgctxt "Booking status"
+msgid "Paid in full"
+msgstr "Tasutud"
+
+#: includes/config/BOOKING_STATUSES.php:41
+msgctxt "Booking status"
+msgid "Pending payment"
+msgstr "Ootab tasumist"
+
+#: includes/config/BOOKING_STATUSES.php:71
+msgctxt "Booking status"
+msgid "Refunded"
+msgstr "Tagasi makstud"
+
+#: includes/config/BOOKING_STATUSES.php:22
+msgctxt "Booking status"
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/core/Shortcode.php:103 includes/core/Shortcode.php:110
+#: includes/core/Shortcode.php:119 includes/core/Shortcode.php:125
+#: includes/integrations/woocommerce/WooCommerce.php:107
+msgid "Booking unavailable."
+msgstr "Broneerimine pole saadaval."
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgid "Booking unavailable. Error: Calendar with ID %s not found."
+msgstr "Broneerimine pole saadaval. Viga: Kalendrit ID'ga %s ei leitud."
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgid "Booking unavailable. Error: No calendar ID."
+msgstr "Broneerimine pole saadaval. Viga: Kalendri ID pole määratud."
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgid "Booking unavailable. Error: No data."
+msgstr "Broneerimine pole saadaval. Viga: Andmed puuduvad."
+
+#. Plugin Name of the plugin
+#: includes/core/Blocks.php:47 includes/Plugin.php:223 build/admin.js:1
+#: dist/admin.js:1
+msgid "Booking Weir"
+msgstr "Broneerimine"
+
+#: build/blocks.js:1 dist/blocks.js:1
+msgid "Booking Weir calendar"
+msgstr "Broneerimis kalender"
+
+#: includes/core/events/EventPostType.php:90
+msgid "Booking Weir events."
+msgstr "Sündmused."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Bookings"
+msgstr "Broneeringud"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid ""
+"Bookings in this calendar are added to WC cart and payment is handled in WC "
+"checkout."
+msgstr ""
+"Selle kalendri broneeringud lisatakse WC ostukorvi ja tasumine toimub WC "
+"kassas."
+
+#: includes/core/events/EventPostType.php:511 build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Bookings must be at least %s minutes long."
+msgstr "Broneeringud peavad olema vähemalt %s minuti pikkused."
+
+#: includes/core/events/EventPostType.php:520 build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Bookings must not be longer than %s minutes."
+msgstr "Broneeringud ei tohi olla pikemad kui %s minutit."
+
+#: includes/core/booking/Booking.php:771
+msgid "Breakdown"
+msgstr "Kokkuvõte"
+
+#: includes/core/booking/Booking.php:535
+msgid "Breakdown mismatch."
+msgstr "Kokkuvõtte ebakõla."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Business days"
+msgstr "Tööpäevad"
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgctxt "Button text that displays a modal with service description."
+msgid "Info"
+msgstr "Info"
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgctxt ""
+"Button text when this service is selected, displayed above the calendar"
+msgid "Selected"
+msgstr "Valitud"
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgctxt "Button that selects a service to book, displayed above the calendar"
+msgid "Select"
+msgstr "Vali"
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgctxt ""
+"Button that triggers booking, displayed in the calendar for selected or "
+"predefined time slots"
+msgid "Book"
+msgstr "Broneeri"
+
+#: includes/core/admin/EventList.php:48
+msgid "Calendar"
+msgstr "Kalender"
+
+#: includes/core/events/EventPostType.php:366
+#: includes/core/rest/endpoints/Events.php:154
+msgid "Calendar ID missing."
+msgstr "Kalendri ID puudub."
+
+#: includes/config/EVENT_META_SCHEMA.php:15
+msgid "Calendar ID that the event is in"
+msgstr "Kalendri ID kus sündmus asub"
+
+#: includes/core/calendars/Calendar.php:770
+msgid "Calendar mismatch."
+msgstr "Kalendri ebakõla"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Calendar name..."
+msgstr "Kalendri nimi..."
+
+#: includes/core/booking/Booking.php:234
+msgid "Calendar not chosen."
+msgstr "Kalender valimata."
+
+#: includes/core/admin/About.php:183 includes/core/admin/EventList.php:80
+#: includes/core/booking/Booking.php:242
+#: includes/core/events/EventPostType.php:381 includes/core/Pdf.php:144
+#: includes/core/Pdf.php:237 includes/core/Sanitizer.php:185
+#: includes/core/Shortcode.php:101
+#: includes/integrations/woocommerce/WooCommerce.php:105
+msgid "Calendar not found."
+msgstr "Kalendrit ei leitud."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid ""
+"Calendar with this ID already exists, create a new calendar with the "
+"imported data."
+msgstr ""
+"Selle ID-ga kalender on juba olemas, looge imporditud andmetega uus kalender."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid ""
+"Calendar with this ID already exists, overwrite it's settings with the "
+"imported data."
+msgstr ""
+"Selle ID-ga kalender on juba olemas, kirjutage selle seaded imporditud "
+"andmetega üle."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:80
+msgid "Calendar's height in pixels."
+msgstr "Kalendri kõrgus pikslites."
+
+#: templates/about.php:43
+msgid "Calendars"
+msgstr "Kalendrid"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid ""
+"Calendars can be exported with their settings, prices, extras, fields and "
+"payment configurations (events not included). Using the exported file it's "
+"then possible to import one or all the calendars from it. Calendar events "
+"are a WordPress custom post type, to export and import them Tools in the "
+"WordPress admin dashboard can be used."
+msgstr ""
+"Kalendreid saab koos nende seadistustega importida ja eksportida (sündmuseid "
+"ei kaasata)."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Cancel"
+msgstr "Tühista"
+
+#: includes/config/FIELD_TYPES.php:38
+msgid "Checkbox"
+msgstr "Märkeruut"
+
+#: includes/integrations/woocommerce/Product.php:124
+msgid "Choose a time"
+msgstr "Valige aeg"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Choose an action..."
+msgstr "Valige toiming..."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:107
+msgid "Classes"
+msgstr "Klassid"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Clear"
+msgstr "Eemalda"
+
+#: includes/integrations/woocommerce/WooCommerce.php:246
+msgid "Click \"%s\" to apply event price."
+msgstr "Sündmuse hinna rakendamiseks klõpsake \"%s\"."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Click and drag in the calendar to add a new event."
+msgstr "Uue sündmuse lisamiseks klõpsake ja lohistage kalendris."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Click on an existing event in the calendar to edit it."
+msgstr "Klõpsake kalendris olemasoleval sündmusel selle muutmiseks."
+
+#: includes/core/booking/paymentmethods/PayPal.php:38
+msgid "Client ID"
+msgstr "Kliendi ID"
+
+#: includes/core/booking/paymentmethods/PayPal.php:46
+msgid "Client secret"
+msgstr "Kliendi saladus"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Close"
+msgstr "Sulge"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:28
+msgid "Closing hour"
+msgstr "Sulgemise tund"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Columns"
+msgstr "Veerud"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:436
+msgid "Company name — Invoice"
+msgstr "Ettevõtte nimi — Arve"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:463
+msgid "Company name, account..."
+msgstr "Ettevõtte nimi, konto..."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:356
+msgid "Confirmation e-mail content"
+msgstr "Kinnitusmeili sisu"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Content"
+msgstr "Sisu"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:312
+msgid "Content before main text in e-mails."
+msgstr "Sisu enne põhiteksti e-kirjades."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Copied shortcode to clipboard"
+msgstr "Lühikood kopeeriti"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Copied to clipboard"
+msgstr "Kopeeritud"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Copy link"
+msgstr "Kopeeri link"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Copy shortcode"
+msgstr "Kopeeri lühikood"
+
+#: includes/core/booking/paymentmethods/PayPal.php:213
+#: includes/core/booking/paymentmethods/Stripe.php:217
+msgid "Couldn't find an event with the transaction ID: %s."
+msgstr "Ei leitud sündmust tehingu ID-ga: %s."
+
+#: includes/core/booking/paymentmethods/PayPal.php:147
+#: includes/core/booking/paymentmethods/PayPal.php:188
+#: includes/core/booking/paymentmethods/Stripe.php:158
+#: includes/core/booking/paymentmethods/Stripe.php:204
+msgid "Couldn't find the booking you paid for."
+msgstr "Ei leitud broneeringut, mille eest tasusite."
+
+#: dev/AddHolidays.js:79
+msgid "Country"
+msgstr "Riik"
+
+#: includes/core/booking/RuleRegistry.php:173 build/admin.js:1
+msgid "Coupon"
+msgstr "Kupong"
+
+#: includes/core/booking/RuleRegistry.php:209
+msgid "Coupon %1$s is only valid during %2$s."
+msgstr "Kupong %1$s kehtib ainult %2$s."
+
+#: includes/core/booking/RuleRegistry.php:229
+msgid "Coupon %1$s is only valid for bookings between %2$s."
+msgstr "Kupong %1$s kehtib ainult broneeringutele vahemikus %2$s."
+
+#: includes/core/booking/RuleRegistry.php:184
+msgid "Coupon can be used between this time."
+msgstr "Selles ajavahemikus saab kupongi kasutada."
+
+#: includes/core/booking/RuleRegistry.php:189
+msgid ""
+"Coupon can be used when booking an event that takes place between this time."
+msgstr ""
+"Kupongi saab kasutada sellel ajavahemikul toimuva ürituse broneerimisel."
+
+#: includes/core/booking/RuleRegistry.php:178
+msgid "Coupon code"
+msgstr "Kupongi kood"
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgctxt "coupon input placeholder"
+msgid "Coupon..."
+msgstr "Kupong..."
+
+#: includes/config/EVENT_META_SCHEMA.php:112
+msgid "Coupon used when booking"
+msgstr "Broneerimisel kasutatud kupong"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Create"
+msgstr "Lisa"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:108
+msgid "CSS classes for the calendar's root container element."
+msgstr "CSS-klassid kalendri juurkonteineri elemendi jaoks."
+
+#: build/admin.js:1
+msgid "Cumulative amongst rules."
+msgstr "Kumulatiivne reeglite vahel."
+
+#: includes/core/booking/paymentmethods/PayPal.php:54
+#: includes/core/booking/paymentmethods/Stripe.php:58
+msgid "Currency code"
+msgstr "Valuuta kood"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:191
+msgid "Currency plural"
+msgstr "Valuuta mitmuses"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:164
+msgid "Currency prefix"
+msgstr "Valuuta eesliide"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:182
+msgid "Currency singular"
+msgstr "Valuuta ainsuses"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:192
+msgid "Currency spelled out in plural form."
+msgstr "Valuuta välja kirjutatud mitmuses."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:183
+msgid "Currency spelled out in singular form."
+msgstr "Valuuta välja kirjutatud ainsuses."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:173
+msgid "Currency suffix"
+msgstr "Valuuta järelliide"
+
+#: build/admin.js:1
+msgid "Current calendar's initial price per hour: %s"
+msgstr "Praeguse kalendri esialgne tunnihind: %s"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Current time in selected timezone"
+msgstr "Praegune kellaaeg valitud ajavööndis"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:129
+msgid ""
+"Custom price text for the WooCommerce product associated with the calendar "
+"(default: calendar's price per hour)."
+msgstr ""
+"Kalendriga seotud WooCommerce'i toote kohandatud hinnatekst (vaikimisi: "
+"kalendri tunnihind)."
+
+#: includes/core/booking/RuleRegistry.php:139 build/admin.js:1
+#: build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Date"
+msgstr "Kuupäev"
+
+#: includes/core/booking/RuleRegistry.php:79
+msgid "Date range"
+msgstr "Kuupäevavahemik"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "A date selection is required"
+msgstr "Kuupäeva valik on vajalik"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Close"
+msgstr "Sulge"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Go to today"
+msgstr "Mine tänasele päevale"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Input a date between {0} and {1}."
+msgstr "Sisestage kuupäev vahemikus {0} kuni {1}."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Input a date ending at {0}."
+msgstr "Sisestage kuupäev enne {0}."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Input a date starting from {0}."
+msgstr "Sisestage kuupäev alates {0}."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Manually entered date is not in correct format."
+msgstr "Käsitsi sisestatud kuupäev ei ole õiges vormingus."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Next month"
+msgstr "Järgmine kuu"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Next year"
+msgstr "Järgmine aasta"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Next year range"
+msgstr "Järgmise aasta vahemik"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Open calendar"
+msgstr "Ava kalender"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Previous month"
+msgstr "Eelmine kuu"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Previous year"
+msgstr "Eelmine aasta"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Previous year range"
+msgstr "Eelmise aasta vahemik"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Select a date."
+msgstr "Valige kuupäev."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Select a date..."
+msgstr "Valige kuupäev..."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Selected date {0}"
+msgstr "Valitud kuupäev {0}"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "The selected date is from the restricted range."
+msgstr "Valitud kuupäev on piiratud vahemikust."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Today's date {0}"
+msgstr "Tänane kuupäev {0}"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Week number {0}"
+msgstr "Nädal number {0}"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "{0}, select to change the month"
+msgstr "{0}, valige kuu muutmiseks"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "{0}, select to change the year"
+msgstr "{0}, valige aasta muutmiseks"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Dates"
+msgstr "Kuupäevad"
+
+#: includes/core/booking/RuleRegistry.php:99
+msgid "Datetime range"
+msgstr "Kuupäeva-ajavahemik"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Day"
+msgstr "Päev"
+
+#: includes/core/events/EventPostType.php:532 build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "day"
+msgid_plural "days"
+msgstr[0] "päev"
+msgstr[1] "päeva"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Days"
+msgstr "Päevad"
+
+#: includes/core/Email.php:88
+msgid "Debug"
+msgstr "Silumine"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:388
+msgid "Debug email"
+msgstr "Silumismeil"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Decrement"
+msgstr "Vähenda"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Default"
+msgstr "Vaikimisi"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Default checked"
+msgstr "Vaikimisi valitud"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:194
+msgctxt "Default currency plural"
+msgid "euros"
+msgstr "eurot"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:185
+msgctxt "Default currency singular"
+msgid "euro"
+msgstr "euro"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid ""
+"Default fields (First name, Last name, E-mail, Phone, Additional info and "
+"Terms, marked in red) are populated automatically from WooCommerce order "
+"info."
+msgstr ""
+"Vaikeväljad (eesnimi, perekonnanimi, e-post, telefon, lisateave ja "
+"tingimused, punasega märgitud) täidetakse automaatselt WooCommerce'i "
+"tellimuse andmetest."
+
+#: includes/core/calendars/Calendar.php:617 build/admin.js:1 dist/admin.js:1
+msgctxt "Default payment type name"
+msgid "Default"
+msgstr "Vaikimisi"
+
+#: includes/core/admin/About.php:154
+msgid "Default timezone is UTC"
+msgstr "Vaikeajavöönd on UTC"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Default value"
+msgstr "Vaikeväärtus"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Default value..."
+msgstr "Vaikeväärtus..."
+
+#: build/admin.js:1
+msgid "Delete"
+msgstr "Kustuta"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Delete \"%s\" file?"
+msgstr "Kustuta \"%s\" fail?"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Delete calendar"
+msgstr "Kustuta kalender"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Delete from cart"
+msgstr "Kustuta ostukorvist"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:416
+msgid ""
+"Delete PDF invoices from the filesystem when the associated booking is "
+"deleted."
+msgstr ""
+"Kustuta failisüsteemist PDF-arved, kui seotud broneering on kustutatud."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Delete permanently"
+msgstr "Kustuta jäädavalt"
+
+#: includes/integrations/woocommerce/WooCommerce.php:222
+msgid "Deleted"
+msgstr "Kustutatud"
+
+#: build/admin.js:1
+msgid "Description"
+msgstr "Kirjeldus"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Detach from order"
+msgstr "Eemalda tellimusest"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Determines the price for booking this event."
+msgstr "Määrab selle sündmuse broneerimise hinna."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:52
+msgid "Determines the selectable time increments in minutes."
+msgstr "Määrab valitud aja sammud minutites."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Disable"
+msgstr "Lülita välja"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Disabled"
+msgstr "Välja lülitatud"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Discard draft"
+msgstr "Loobu mustandist"
+
+#: build/blocks.js:1 dist/blocks.js:1
+msgid "Display a booking calendar."
+msgstr "Kuvage broneerimiskalender."
+
+#. Description of the plugin
+msgid "Display a calendar that allows to select and book a time."
+msgstr "Võimaldab kuvada kalendrit, milles saab aega valida ja broneerida."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA__premium_only.php:10
+msgid "Display events from another calendar in this calendar and vice versa."
+msgstr "Kuvage selles kalendris sündmusi teisest kalendrist ja vastupidi."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid ""
+"Displays the raw transaction data that payment gateway provides based on the "
+"stored transaction ID."
+msgstr ""
+"Kuvab algsed tehinguandmed, mida maksevärav talletatud tehingu ID alusel "
+"pakub."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Documentation"
+msgstr "Dokumentatsioon"
+
+#: build/admin.js:1
+msgid "Duplicate"
+msgstr "Tee koopia"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Duplicate calendar"
+msgstr "Tee kalendrist koopia"
+
+#: includes/core/booking/RuleRegistry.php:250 build/admin.js:1
+#: build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Duration"
+msgstr "Kestus"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Duration is longer than the event."
+msgstr "Kestus on pikem kui sündmus."
+
+#: includes/core/events/EventPostType.php:497 build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Duration is shorter than minimum."
+msgstr "Kestus on lühem kui miinimum."
+
+#: includes/config/DEFAULT_FIELDS.php:29 includes/config/FIELD_TYPES.php:50
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "E-mail"
+msgstr "E-post"
+
+#: includes/core/Sanitizer.php:285
+msgid "E-mail \"%s\" is not valid."
+msgstr "E-post \"%s\" ei ole valiidne."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:389
+msgid ""
+"E-mail address to use when client e-mail is set to %s. When you make a test "
+"booking then this e-mail will receive the invoice e-mail."
+msgstr ""
+"E-posti aadress, mida kasutada, kui kliendi e-posti aadressiks on seatud %s. "
+"Kui teete testbroneeringu, saadetakse sellele e-postile arve."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:320
+msgid "E-mail footer"
+msgstr "E-posti jalus"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:311
+msgid "E-mail header"
+msgstr "E-posti päis"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "E-mail preview"
+msgstr "E-posti eelvaade"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid ""
+"E-mail templates include a subset of the WordPress core block styles so "
+"simple blocks like header, button, image should work well. Most e-mail "
+"clients don't support CSS flex, so tables should be used instead of columns."
+msgstr ""
+"Meilimallid sisaldavad osasid WordPressi põhiploki stiilide, nii et lihtsad "
+"plokid, nagu päis, nupp, pilt, peaksid hästi töötama. Enamik meilikliente ei "
+"toeta CSS flexi, seega tuleks veergude asemel kasutada tabeleid."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:339
+msgid "E-mail that has a PDF invoice attached."
+msgstr "E-kiri, millele manustatakse PDF-arve."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:357
+msgid "E-mail that is sent when booking status is changed to \"Confirmed\"."
+msgstr ""
+"E-kiri, mis saadetakse siis, kui broneeringu olekuks seatakse \"Kinnitatud\"."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:380
+msgid "E-mail that reminds about booking."
+msgstr "E-kiri, mis tuletab broneeringust meelde."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "E-mail..."
+msgstr "E-post..."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:15
+msgid "Earliest time that an event can be booked."
+msgstr "Varasem aeg, mil saab üritust broneerida."
+
+#: includes/core/admin/EventList.php:143 build/admin.js:1 dist/admin.js:1
+msgid "Edit"
+msgstr "Muuda"
+
+#. translators: %s: post title
+#: includes/core/admin/EventList.php:142
+msgid "Edit &#8220;%s&#8221;"
+msgstr "Muuda &#8220;%s&#8221;"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Edit event"
+msgstr "Muuda sündmust"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Enable"
+msgstr "Lülita sisse"
+
+#: includes/core/booking/paymentmethods/PayPal.php:63
+#: includes/core/booking/paymentmethods/Stripe.php:67
+msgid "Enable to perform the payments in a test environment."
+msgstr "Lubage, et sooritada makseid testkeskkonnas."
+
+#: includes/core/booking/Booking.php:769 build/admin.js:1 build/shortcode.js:1
+#: dist/admin.js:1 dist/shortcode.js:1
+msgid "End"
+msgstr "Lõpp"
+
+#: includes/core/booking/RuleRegistry.php:64
+#: includes/core/booking/RuleRegistry.php:112
+msgid "End time"
+msgstr "Lõpuaeg"
+
+#: includes/core/events/EventPostType.php:484 build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "End time is later than closing hours."
+msgstr "Lõpuaeg on hilisem kui sulgemisaeg."
+
+#: includes/core/events/EventPostType.php:375
+msgid "End time missing."
+msgstr "Lõpuaeg puudub."
+
+#: includes/core/rest/endpoints/Payment.php:44
+msgid "Error retrieving transaction."
+msgstr "Viga tehingu laadimisel."
+
+#: includes/core/booking/Booking.php:522
+msgctxt "Error: submitted price - calculated price is different"
+msgid "Price mismatch (%1$g - %2$g)."
+msgstr "Hinna ebakõla (%1$g – %2$g)."
+
+#: includes/core/booking/Booking.php:702 includes/core/events/Event.php:443
+#: includes/integrations/woocommerce/WooCommerce.php:180
+#: includes/integrations/woocommerce/WooCommerce.php:221
+#: includes/integrations/woocommerce/WooCommerce.php:241
+#: includes/integrations/woocommerce/WooCommerce.php:276 build/admin.js:1
+#: build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Event"
+msgstr "Sündmus"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Event %s not found."
+msgstr "Sündmust %s ei leitud."
+
+#: includes/core/events/Event.php:1263
+msgctxt "Event action"
+msgid "Confirm"
+msgstr "Kinnita"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Event already started"
+msgstr "Sündmus on juba alanud"
+
+#: includes/config/EVENT_META_SCHEMA.php:64
+msgid "Event creation timestamp"
+msgstr "Sündmuse loomise ajatempel"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Event date"
+msgstr "Sündmuse kuupäev"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Event date..."
+msgstr "Sündmuse kuupäev..."
+
+#: includes/core/rest/endpoints/Email.php:76
+msgid "Event doesn't have an e-mail specified."
+msgstr "Sündmusele ei ole määratud e-posti aadressi."
+
+#: includes/core/events/EventPostType.php:440
+msgid "Event duration can not be longer than a day."
+msgstr "Sündmuse kestus ei tohi olla pikem kui päev."
+
+#: includes/config/EVENT_META_SCHEMA.php:44
+msgid "Event end time"
+msgstr "Sündmuse lõpuaeg"
+
+#: includes/config/EVENT_META_SCHEMA.php:55
+msgid "Event end timestamp"
+msgstr "Sündmuse lõpu ajatempel"
+
+#: includes/core/events/EventPostType.php:575
+msgid "Event has reached capacity."
+msgstr "Ürituse maht on täis."
+
+#: includes/core/Pdf.php:153 build/admin.js:1 dist/admin.js:1
+msgid "Event is archived."
+msgstr "Sündmus on arhiveeritud."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Event is in another calendar. Change calendars to view event?"
+msgstr "Sündmus on teises kalendris. Vaheta kalendrit, et seda vaadata?"
+
+#: includes/core/Pdf.php:234
+msgid "Event is not a booking."
+msgstr "Üritus ei ole broneering."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Event is not public"
+msgstr "Sündmus ei ole avalik"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Event link"
+msgstr "Sündmuse link"
+
+#: includes/core/events/EventPostType.php:329
+#: includes/core/events/EventPostType.php:820 includes/core/Pdf.php:141
+#: includes/core/Pdf.php:231 includes/core/Sanitizer.php:203
+msgid "Event not found."
+msgstr "Sündmust ei leitud."
+
+#: includes/core/events/EventPostType.php:96
+msgctxt "Event post type"
+msgid "Add New"
+msgstr "Lisa uus"
+
+#: includes/core/events/EventPostType.php:97
+msgctxt "Event post type"
+msgid "Add New Event"
+msgstr "Lisa uus sündmus"
+
+#: includes/core/events/EventPostType.php:98
+msgctxt "Event post type"
+msgid "Edit Event"
+msgstr "Muuda sündmust"
+
+#: includes/core/events/EventPostType.php:93
+#: includes/core/events/EventPostType.php:95
+msgctxt "Event post type"
+msgid "Event"
+msgstr "Sündmus"
+
+#: includes/core/events/EventPostType.php:105
+msgctxt "Event post type"
+msgid "Event Image"
+msgstr "Sündmuse pilt"
+
+#: includes/core/events/EventPostType.php:92
+#: includes/core/events/EventPostType.php:94
+#: includes/core/events/EventPostType.php:104
+msgctxt "Event post type"
+msgid "Events"
+msgstr "Sündmused"
+
+#: includes/core/events/EventPostType.php:113
+msgctxt "Event post type"
+msgid "Events list"
+msgstr "Sündmuste loend"
+
+#: includes/core/events/EventPostType.php:112
+msgctxt "Event post type"
+msgid "Events list navigation"
+msgstr "Sündmuste loendis navigeerimine"
+
+#: includes/core/events/EventPostType.php:111
+msgctxt "Event post type"
+msgid "Filter Events list"
+msgstr "Filtreeri sündmuste loend"
+
+#: includes/core/events/EventPostType.php:109
+msgctxt "Event post type"
+msgid "Insert into Event"
+msgstr "Sisesta sündmusesse"
+
+#: includes/core/events/EventPostType.php:99
+msgctxt "Event post type"
+msgid "New Event"
+msgstr "Uus sündmus"
+
+#: includes/core/events/EventPostType.php:102
+msgctxt "Event post type"
+msgid "No Events found"
+msgstr "Sündmusi ei leitud"
+
+#: includes/core/events/EventPostType.php:103
+msgctxt "Event post type"
+msgid "No Events found in trash"
+msgstr "Prügikastist ei leitud sündmusi"
+
+#: includes/core/events/EventPostType.php:107
+msgctxt "Event post type"
+msgid "Remove Event image"
+msgstr "Eemalda sündmuse pilt"
+
+#: includes/core/events/EventPostType.php:101
+msgctxt "Event post type"
+msgid "Search Events"
+msgstr "Otsi sündmusi"
+
+#: includes/core/events/EventPostType.php:106
+msgctxt "Event post type"
+msgid "Set Event image"
+msgstr "Määra sündmuse pilt"
+
+#: includes/core/events/EventPostType.php:110
+msgctxt "Event post type"
+msgid "Uploaded to this Event"
+msgstr "Sellele sündmusele üles laaditud"
+
+#: includes/core/events/EventPostType.php:108
+msgctxt "Event post type"
+msgid "Use as Event image"
+msgstr "Kasuta sündmuse pildina"
+
+#: includes/core/events/EventPostType.php:100
+msgctxt "Event post type"
+msgid "View Event"
+msgstr "Vaata sündmust"
+
+#: includes/core/calendars/Calendar.php:761
+msgid "Event start or end time was not found."
+msgstr "Sündmuse algus- või lõppaega ei leitud."
+
+#: includes/config/EVENT_META_SCHEMA.php:24
+msgid "Event start time"
+msgstr "Sündmuse algusaeg"
+
+#: includes/config/EVENT_META_SCHEMA.php:35
+msgid "Event start timestamp"
+msgstr "Sündmuse alguse ajatempel"
+
+#: includes/config/EVENT_META_SCHEMA.php:82
+msgid "Event type"
+msgstr "Sündmuse tüüp"
+
+#: includes/config/EVENT_TYPES.php:22
+msgctxt "Event type"
+msgid "Booking"
+msgstr "Broneering"
+
+#: includes/config/EVENT_TYPES.php:50
+msgctxt "Event type"
+msgid "Deleted"
+msgstr "Kustutatud"
+
+#: includes/config/EVENT_TYPES.php:8
+msgctxt "Event type"
+msgid "Event"
+msgstr "Sündmus"
+
+#: includes/config/EVENT_TYPES.php:15
+msgctxt "Event type"
+msgid "New event"
+msgstr "Uus sündmus"
+
+#: includes/config/EVENT_TYPES.php:43
+msgctxt "Event type"
+msgid "Private"
+msgstr "Privaatne"
+
+#: includes/config/EVENT_TYPES.php:29
+msgctxt "Event type"
+msgid "Slot"
+msgstr "Pesa"
+
+#: includes/config/EVENT_TYPES.php:36
+msgctxt "Event type"
+msgid "Unavailable"
+msgstr "Pole saadaval"
+
+#: includes/core/events/EventPostType.php:396
+msgctxt "Event type=\"booking\" name"
+msgid "Booking"
+msgstr "Broneering"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Event was created too late for a reminder"
+msgstr "Sündmus loodi meeldetuletuse jaoks liiga hilja"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Events"
+msgstr "Sündmused"
+
+#: includes/core/Cron.php:63
+msgid "Every 30 minutes"
+msgstr "Iga 30 minuti järel"
+
+#: build/admin.js:1 dist/admin.js:1
+msgctxt "Every n days/weeks/months"
+msgid "Every"
+msgstr "Iga"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Example value"
+msgstr "Näidisväärtus"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Exists"
+msgstr "Olemas"
+
+#: includes/core/Pdf.php:224
+msgid "Expected post type \"%1$s\", got \"%2$s\"."
+msgstr "Oodatud postituse tüüp \"%1$s\", saadud \"%2$s\"."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Export"
+msgstr "Ekspordi"
+
+#: includes/core/booking/RuleRegistry.php:295
+msgid "Extra"
+msgstr "Lisa"
+
+#: build/admin.js:1 dist/admin.js:1
+msgctxt "Extra (type: duration) input label"
+msgid "Duration"
+msgstr "Kestus"
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgctxt "Extra (type: Per hour) input label."
+msgid "Duration"
+msgstr "Kestus"
+
+#: build/admin.js:1 dist/admin.js:1
+msgctxt "Extra (type: units) input label"
+msgid "Amount"
+msgstr "Kogus"
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgctxt "Extra (type: Units) input label."
+msgid "Amount"
+msgstr "Kogus"
+
+#: build/admin.js:1 dist/admin.js:1
+msgctxt "Extra (type: units) input units"
+msgid "pc"
+msgstr "tk"
+
+#: build/admin.js:1
+msgid "Extra name..."
+msgstr "Lisa nimi..."
+
+#: build/admin.js:1
+msgctxt "Extra pricing type"
+msgid "Duration"
+msgstr "Kestus"
+
+#: build/admin.js:1
+msgctxt "Extra pricing type"
+msgid "Fixed"
+msgstr "Fikseeritud"
+
+#: build/admin.js:1
+msgctxt "Extra pricing type"
+msgid "Units"
+msgstr "Ühikud"
+
+#: build/admin.js:1
+msgid "Extra types"
+msgstr "Lisade tüübid"
+
+#: includes/core/booking/Booking.php:772
+#: includes/integrations/woocommerce/WooCommerce.php:198
+#: includes/integrations/woocommerce/WooCommerce.php:300 build/admin.js:1
+#: build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Extras"
+msgstr "Lisad"
+
+#: build/admin.js:1
+msgid ""
+"Extras can be selected by the user to request additional goods or services "
+"for an extra cost when creating a booking."
+msgstr ""
+"Lisid saab kasutaja valida lisatasu eest lisakaupade või -teenuste "
+"tellimiseks broneeringu tegemisel."
+
+#: includes/core/events/Event.php:1340
+msgid "Failed adding order item."
+msgstr "Tellimuse üksuse lisamine ebaõnnestus."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Failed creating event"
+msgstr "Sündmuse loomine ebaõnnestus"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Failed deleting event"
+msgstr "Sündmuse kustutamine ebaõnnestus"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Failed deleting event permanently"
+msgstr "Sündmuse jäädavalt kustutamine ebaõnnestus"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Failed deleting file"
+msgstr "Faili kustutamine ebaõnnestus"
+
+#: includes/core/rest/endpoints/Event.php:122
+msgid "Failed deleting file."
+msgstr "Faili kustutamine ebaõnnestus."
+
+#: includes/core/Pdf.php:261
+msgid "Failed deleting invoice."
+msgstr "Arve kustutamine ebaõnnestus."
+
+#: includes/core/rest/endpoints/Pdf.php:105
+msgid "Failed deleting PDF."
+msgstr "PDF-i kustutamine ebaõnnestus."
+
+#: build/admin.js:1 build/blocks.js:1 build/shortcode.js:1 dist/admin.js:1
+#: dist/blocks.js:1 dist/shortcode.js:1
+msgid "Failed fetching calendars"
+msgstr "Kalendrite laadimine ebaõnnestus"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Failed fetching e-mail preview"
+msgstr "Meili eelvaate laadmine ebaõnnestus"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Failed fetching event"
+msgstr "Sündmuse laadimine ebaõnnestus"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+#| msgid "Failed fetching event info."
+msgid "Failed fetching event info"
+msgstr "Sündmuse teabe laadimine ebaõnnestus."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Failed fetching events"
+msgstr "Sündmuste laadimine ebaõnnestus"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Failed fetching price"
+msgstr "Hinna laadimine ebaõnnestus"
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgid "Failed fetching service description."
+msgstr "Teenuse kirjelduse laadimine ebaõnnestus."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Failed fetching settings schema"
+msgstr "Seadete skeemi laadimine ebaõnnestus"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Failed fetching template strings"
+msgstr "Šabloontekstide laadmine ebaõnnestus"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Failed fetching transaction data"
+msgstr "Tehinguandmete päring ebaõnnestus"
+
+#: includes/core/rest/endpoints/Pdf.php:87
+msgid "Failed generating PDF."
+msgstr "PDF-i genereerimine ebaõnnestus."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Failed generating test PDF"
+msgstr "Test-PDF-i genereerimine ebaõnnestus"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Failed regenerating PDF"
+msgstr "PDF-i taastamine ebaõnnestus"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Failed removing personal data"
+msgstr "Isikuandmete eemaldamine ebaõnnestus"
+
+#: includes/core/admin/About.php:180
+msgid "Failed restoring calendar."
+msgstr "Kalendri taastamine ebaõnnestus."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Failed saving calendars"
+msgstr "Kalendrite salvestamine ebaõnnestus"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Failed sending invoice e-mail"
+msgstr "Arve e-maili saatmine ebaõnnestus"
+
+#: includes/core/rest/endpoints/Email.php:81
+msgid ""
+"Failed sending invoice e-mail, check that your server is correctly "
+"configured for using the PHP mail() function."
+msgstr ""
+"Arve meili saatmine ebaõnnestus, kontrollige, kas teie server on PHP mail() "
+"funktsiooni kasutamiseks õigesti seadistatud."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Failed sending reminder e-mail"
+msgstr "Meeldetuletusmeili saatmine ebaõnnestus"
+
+#: includes/core/rest/endpoints/Email.php:96
+msgid ""
+"Failed sending reminder e-mail, check that your server is correctly "
+"configured for using the PHP mail() function."
+msgstr ""
+"Meeldetuletuse e-kirja saatmine ebaõnnestus, kontrollige, kas teie server on "
+"PHP mail() funktsiooni kasutamiseks õigesti seadistatud."
+
+#: includes/core/Pdf.php:58
+msgid "Failed to initialize WP Filesystem."
+msgstr "WP-failisüsteemi lähtestamine ebaõnnestus."
+
+#: includes/core/booking/Booking.php:658
+msgid ""
+"Failed to send a confirmation to your e-mail, but your booking is received."
+msgstr ""
+"Kinnituse saatmine teie e-postile ebaõnnestus, kuid teie broneering on kätte "
+"saadud."
+
+#: includes/core/booking/Booking.php:657
+msgid ""
+"Failed to send a confirmation with an invoice to your e-mail, please open it "
+"from %1$shere%2$s."
+msgstr ""
+"Arvega kinnituse saatmine teie e-postile ebaõnnestus, avage see %1$ssiit%2$s."
+
+#: includes/core/rest/endpoints/Calendars.php:81
+msgid "Failed updating calendars."
+msgstr "Kalendrite uuendamine ebaõnnestus."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Failed updating event"
+msgstr "Sündmuse uuendamine ebaõnnestus"
+
+#: includes/core/events/EventPostType.php:207
+msgid "Failed updating event meta: %s."
+msgstr "Sündmuse meta uuendamine nurjus: %s."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Field"
+msgstr "Väli"
+
+#: includes/core/booking/Field.php:197
+msgid "Field \"%s\" is required."
+msgstr "Väli \"%s\" on kohustuslik."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Field label..."
+msgstr "Välja silt..."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Field placeholder..."
+msgstr "Välja kohatäide..."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Field settings"
+msgstr "Välja seaded"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Field type"
+msgstr "Välja tüüp"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Fields"
+msgstr "Väljad"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid ""
+"Fields can be used to collect info about the booker and their preferences."
+msgstr ""
+"Väljasid saab kasutada broneerija ja tema eelistuste kohta teabe kogumiseks."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Fields were reset to default"
+msgstr "Väljad lähtestati vaikeväärtustele"
+
+#: includes/config/FIELD_TYPES.php:44
+msgid "File"
+msgstr "Fail"
+
+#: includes/core/Sanitizer.php:313
+msgid "File \"%s\" is not valid."
+msgstr "Fail \"%s\" ei ole valiidne."
+
+#: includes/core/Pdf.php:252
+msgid "File is not a PDF."
+msgstr "Fail ei ole PDF."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "File is required"
+msgstr "Fail on nõutud"
+
+#: includes/core/rest/endpoints/Event.php:119
+msgid "File not found."
+msgstr "Faili ei leitud."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "File size must me smaller than %dmb"
+msgstr "Faili suurus peab olema väiksem kui %dmb"
+
+#: includes/core/booking/Field.php:295 includes/core/booking/Field.php:339
+#: includes/core/booking/Field.php:364 includes/core/booking/Field.php:425
+#: includes/core/booking/Field.php:435 includes/core/booking/Field.php:453
+msgid "File upload error (%1$s) for \"%2$s\"."
+msgstr "Faili üleslaadimise viga (%1$s) \"%2$s\" jaoks."
+
+#: includes/core/Pdf.php:249
+msgid "File validation failed."
+msgstr "Faili validatsioon ebaõnnestus."
+
+#: includes/config/DEFAULT_FIELDS.php:16 build/admin.js:1 build/shortcode.js:1
+#: dist/admin.js:1 dist/shortcode.js:1
+msgid "First name"
+msgstr "Eesnimi"
+
+#: build/admin.js:1
+msgid "Fixed duration"
+msgstr "Fikseeritud kestus"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid ""
+"Following a link to an event navigates the calendar to the event's date and "
+"highlights it."
+msgstr ""
+"Sündmuse lingi järgimine viib kalendris sündmuse kuupäevani ja tõstab selle "
+"esile."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:321
+msgid "Footer content for e-mails."
+msgstr "E-kirjade jaluse sisu."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:479
+msgid "Footer content for invoice PDF."
+msgstr "PDF-arve jaluse sisu."
+
+#: includes/core/booking/RuleRegistry.php:84
+#: includes/core/booking/RuleRegistry.php:104
+msgid "From - To"
+msgstr "Alates - kuni"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:260
+msgid "Future bookings"
+msgstr "Broneeringud tulevikku"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Generate a test PDF file to ensure the server is capable."
+msgstr "Serveri töövõimekuse tagamiseks genereerige test PDF fail."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:398
+msgid "Generate PDF invoices for bookings and attach them to invoice e-mails."
+msgstr ""
+"Genereeri broneeringute jaoks PDF-arved ja manusta need arvete e-kirjadele."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Generate test PDF"
+msgstr "Genereeri test-PDF"
+
+#: includes/core/Pdf.php:130 includes/core/Pdf.php:209
+msgid "Generated file doesn't exist."
+msgstr "Genereeritud faili pole olemas."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Generated test PDF"
+msgstr "Test-PDF genereeritud"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Get link"
+msgstr "Hangi link"
+
+#: includes/config/FIELD_TYPES.php:63
+msgid "Grid"
+msgstr "Tulbad"
+
+#: includes/core/booking/RuleRegistry.php:323
+msgid "Group"
+msgstr "Grupp"
+
+#: build/admin.js:1
+msgctxt "Group condition"
+msgid "AND"
+msgstr "JA"
+
+#: build/admin.js:1
+msgctxt "Group condition"
+msgid "OR"
+msgstr "VÕI"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:79
+msgid "Height"
+msgstr "Kõrgus"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Help"
+msgstr "Abi"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Hide when overlapping with existing (non-repeating) events"
+msgstr "Peida, kui kattub olemasolevate (mittekorduvate) sündmustega"
+
+#: templates/about.php:34
+msgid "History"
+msgstr "Ajalugu"
+
+#: includes/config/EVENT_META_SCHEMA.php:390
+msgid "Holds info about how to repeat the event when `repeat` is true"
+msgstr "Sisaldab teavet selle kohta, kuidas sündmust korrata"
+
+#: includes/config/EVENT_META_SCHEMA.php:351
+msgid "Holds info about the event booking when `bookable` is true"
+msgstr "Hoiab teavet sündmuse broneerimise kohta, kui see on broneeritav"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Horizontal"
+msgstr "Horisontaalne"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:366
+msgid ""
+"How many hours before booking start time to send a reminder e-mail. No "
+"reminder is sent when the value is 0, but you can still send reminder e-"
+"mails manually."
+msgstr ""
+"Tunnid enne broneerimise algusaega meeldetuletuse e-kirja saatmiseks. Kui "
+"väärtus on 0 siis meeldetuletust ei saadeta, kuid saate siiski saata "
+"meeldetuletusmeile käsitsi."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "How many times can this event be booked."
+msgstr "Mitu korda saab seda üritust broneerida."
+
+#. Author URI of the plugin
+msgid "https://chap.website/author/websevendev"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://chap.website/booking-weir"
+msgstr ""
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "ID"
+msgstr "ID"
+
+#: includes/config/EVENT_META_SCHEMA.php:362
+msgid "ID of a bookable event that this booking was created for"
+msgstr "Broneeritava sündmuse ID, mille jaoks see broneering loodi"
+
+#: includes/config/EVENT_META_SCHEMA.php:371
+msgid "ID of a slot that this event was booked on"
+msgstr "Selle pesa ID, millel see sündmus broneeriti"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid ""
+"If you don't want to send a reminder for this booking you can mark it as "
+"\"sent\" without sending it which also prevents sending an automatic "
+"reminder in the future."
+msgstr ""
+"Kui te ei soovi selle broneeringu kohta meeldetuletust saata, saate märkida "
+"selle \"saadetuks\" ilma seda saatmata, mis takistab ka edaspidi automaatse "
+"meeldetuletuse saatmist."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid ""
+"If you wish to stop using WC then remove this calendar's association with a "
+"WC product from Settings -> Calendar -> Product."
+msgstr ""
+"Kui soovite WC kasutamise lõpetada, eemaldage selle kalendri seos WC-tootega "
+"menüüst Seaded -> Kalender -> Toode."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Ignore"
+msgstr "Ignoreeri"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Ignored"
+msgstr "Eiratud"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Import"
+msgstr "Impordi"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Import a copy"
+msgstr "Impordi koopia"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Imported"
+msgstr "Imporditud"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Include events older than a week"
+msgstr "Näita sündmusi, mis on vanemad kui nädal"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Increment"
+msgstr "Suurenda"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:461
+msgid ""
+"Info about the invoice issuer, displayed in the PDF as \"Invoice from: Your "
+"text\"."
+msgstr ""
+"Teave arve väljastaja kohta, kuvatakse PDF-is kui \"Arve esitaja: teie "
+"tekst\"."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Interval"
+msgstr "Intervall"
+
+#: includes/core/events/EventPostType.php:830
+msgid "Invalid action."
+msgstr "Vigane toiming."
+
+#: includes/core/booking/Booking.php:263
+msgid "Invalid bookable event ID."
+msgstr "Vigane broneeritava sündmuse ID."
+
+#: includes/core/Sanitizer.php:376
+msgid "Invalid booking status: \"%s\"."
+msgstr "Vigane broneeringu olek: \"%s\"."
+
+#: includes/core/Sanitizer.php:535
+msgid "Invalid booking value for: \"%s\"."
+msgstr "Vigane broneeringu väärtus \"%s\"-le."
+
+#: includes/core/Sanitizer.php:524
+msgid "Invalid booking value."
+msgstr "Viganed broneeringu väärtus."
+
+#: includes/core/Sanitizer.php:497
+msgid "Invalid breakdown title type: \"%s\"."
+msgstr "Vigane kokkuvõtte pealkirja tüüp: \"%s\"."
+
+#: includes/core/Sanitizer.php:493
+msgid "Invalid breakdown."
+msgstr "Vigane kokkuvõte."
+
+#: includes/core/Sanitizer.php:58
+msgid "Invalid calendar ID: \"%s\"."
+msgstr "Vigane kalendri ID: \"%s\"."
+
+#: includes/core/Sanitizer.php:68
+msgid "Invalid calendar key: \"%s\"."
+msgstr "Vigane kalendri võti: \"%s\"."
+
+#: includes/core/rest/endpoints/Calendars.php:60
+msgid "Invalid calendars."
+msgstr "Vigased kalendrid."
+
+#: includes/core/booking/PriceCalculator.php:334
+msgid "Invalid coupon: %s."
+msgid_plural "Invalid coupons: %s."
+msgstr[0] "Vigane kupong: %s."
+msgstr[1] "Vigased kupongid: %s."
+
+#: includes/core/Sanitizer.php:126
+msgid "Invalid date: \"%s\"."
+msgstr "Vigane kuupäev: \"%s\"."
+
+#: includes/core/Sanitizer.php:94
+msgid "Invalid datetime: \"%s\"."
+msgstr "Vigane kuupäev ja kellaaeg: \"%s\"."
+
+#: includes/core/Sanitizer.php:590
+msgid "Invalid day value for repeater."
+msgstr "Vigane kordaja päevaväärtus."
+
+#: includes/core/Sanitizer.php:333
+msgid "Invalid event type: \"%s\"."
+msgstr "Vigane sündmuse tüüp: \"%s\"."
+
+#: includes/core/calendars/Calendar.php:758
+msgid "Invalid event."
+msgstr "Vigane sündmus."
+
+#: includes/core/Sanitizer.php:412
+msgid "Invalid extra ID type: \"%s\"."
+msgstr "Vigane lisa ID tüüp: \"%s\"."
+
+#: includes/core/Sanitizer.php:415
+msgid "Invalid extra value type: \"%s\"."
+msgstr "Vigane lisa väärtuse tüüp: \"%s\"."
+
+#: includes/core/Sanitizer.php:408
+msgid "Invalid extras."
+msgstr "Vigased lisad."
+
+#: includes/core/Sanitizer.php:455
+msgid "Invalid field ID type: \"%s\"."
+msgstr "Vigane välja ID tüüp: \"%s\"."
+
+#: includes/core/Sanitizer.php:458
+msgid "Invalid field value type: \"%s\"."
+msgstr "Vigane välja väärtuse tüüp: \"%s\"."
+
+#: includes/core/Sanitizer.php:451
+msgid "Invalid fields."
+msgstr "Vigased väljad."
+
+#: includes/core/events/EventPostType.php:404
+msgid "Invalid initial event status."
+msgstr "Sündmuse algolek on vigane."
+
+#: includes/core/events/EventPostType.php:414
+msgid "Invalid payment method."
+msgstr "Vigane makseviis."
+
+#: includes/core/booking/Booking.php:299
+#: includes/core/events/EventPostType.php:409
+msgid "Invalid payment type."
+msgstr "Vigane maksetüüp."
+
+#: includes/core/Sanitizer.php:155
+msgid "Invalid price: \"%s\"."
+msgstr "Vigane hind: \"%s\"."
+
+#: includes/core/Sanitizer.php:578 includes/core/Sanitizer.php:597
+#: includes/core/Sanitizer.php:609 includes/core/Sanitizer.php:614
+#: includes/core/Sanitizer.php:619
+msgid "Invalid repeater value for: \"%s\"."
+msgstr "Vigane kordaja väärtus \"%s\"-le."
+
+#: includes/core/Sanitizer.php:568
+msgid "Invalid repeater value."
+msgstr "Vigane kordaja väärtus."
+
+#: includes/core/calendars/Calendar.php:823
+msgid "Invalid response when adding event."
+msgstr "Vigane vastus sündmuse lisamisel."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Invalid response."
+msgstr "Vigane vastus."
+
+#: includes/core/booking/Booking.php:274
+msgid "Invalid service ID."
+msgstr "Vigane teenuse ID."
+
+#: includes/core/admin/About.php:170 includes/core/booking/Booking.php:320
+#: includes/core/events/EventPostType.php:816
+#: includes/core/rest/endpoints/Events.php:157
+msgid "Invalid session."
+msgstr "Vigane sessioon."
+
+#: includes/core/Pdf.php:159
+msgid "Invalid settings."
+msgstr "Vigased seaded."
+
+#: includes/core/booking/Field.php:204
+msgid "Invalid value \"%1$s\" for field \"%2$s\"."
+msgstr "Vigane väärtus \"%1$s\" väljale \"%2$s\"."
+
+#: includes/core/Sanitizer.php:500
+msgid "Invalid value for breakdown: \"%s\"."
+msgstr "Kokkuvõtte vigane väärtus: \"%s\"."
+
+#: includes/core/events/EventPostType.php:174
+msgid "Invalid value for event meta: %s."
+msgstr "Sündmuse meta vigane väärtus: %s."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Invalid value: %s"
+msgstr "Vigane väärtus: %s"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:454
+msgid "Invoice"
+msgstr "Arve"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:338
+msgid "Invoice e-mail content"
+msgstr "Arve e-kirja sisu"
+
+#: includes/core/booking/Payment.php:162
+msgctxt "Invoice e-mail title"
+msgid "Booking invoice"
+msgstr "Broneeringu arve"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Label"
+msgstr "Silt"
+
+#: includes/config/DEFAULT_FIELDS.php:23 build/admin.js:1 build/shortcode.js:1
+#: dist/admin.js:1 dist/shortcode.js:1
+msgid "Last name"
+msgstr "Perekonnanimi"
+
+#: build/admin.js:1
+msgid ""
+"Last rule to apply will determine the new price per hour for the matching "
+"time period."
+msgstr ""
+"Viimane rakendatav reegel määrab uue tunnihinna kattuvale ajaperioodile."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Legend"
+msgstr "Legend"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Limit"
+msgstr "Limiit"
+
+#: build/admin.js:1 dist/admin.js:1
+msgctxt "Limit: n bookings"
+msgid "bookings"
+msgstr "broneeringut"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Link"
+msgstr "Link"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:142
+msgid "Link to the page where this calendar is displayed on the front end."
+msgstr "Link avalikule lehele, millel seda kalendrit kuvatakse."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:214
+msgid "Locale"
+msgstr "Lokaal"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:215
+msgid "Locale to use when internationalizing date related text."
+msgstr ""
+"Lokaat, mida kasutatakse kuupäevaga seotud teksti rahvusvahelistumisel."
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgctxt "Localized formatted date"
+msgid "No times are available on %s."
+msgstr "%s pole ühtegi aega saadaval."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Localized time"
+msgstr "Lokaliseeritud aeg"
+
+#: templates/logs.php:69
+msgid "Logging is enabled"
+msgstr "Logimine on sisse lülitatud"
+
+#: templates/logs.php:34
+msgid "Logging is not enabled by default"
+msgstr "Logimine pole vaikimisi sisse lülitatud"
+
+#: templates/logs.php:14
+msgid "Logs"
+msgstr "Logid"
+
+#: includes/core/admin/About.php:128
+msgid "Logs dir"
+msgstr "Logide kataloog"
+
+#: templates/logs.php:80
+msgid "Logs directory is not writable."
+msgstr "Logide kataloog ei ole kirjutatav."
+
+#: templates/logs.php:87
+msgid "Logs directory: %s"
+msgstr "Logide kataloog: %s"
+
+#: templates/logs.php:42
+msgid ""
+"Logs may contain personal data so you need to ensure the logs directory is "
+"not publicly accessible."
+msgstr ""
+"Logid võivad sisaldada isikuandmeid, nii et peate tagama, et logide kataloog "
+"poleks avalikult juurdepääsetav."
+
+#: build/admin.js:1
+msgid "Loose duration"
+msgstr "Lahtine kestus"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Make private"
+msgstr "Tee privaatseks"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Make public"
+msgstr "Tee avalikuks"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Manage"
+msgstr "Halda"
+
+#: includes/core/calendars/Calendar.php:1090 build/admin.js:1
+#: build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Manage calendar"
+msgstr "Halda kalendrit"
+
+#: includes/core/booking/paymentmethods/BankTransfer.php:24
+msgid "Manual payment by the client"
+msgstr "Klient maksab ise"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Mark invoice sent"
+msgstr "Märgi arve saadetuks"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Mark reminder sent"
+msgstr "Märgi meeldetuletus saadetuks"
+
+#: build/admin.js:1 dist/admin.js:1
+msgctxt "Maximum"
+msgid "Max"
+msgstr "Maks."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:288
+msgid "Maximum booking duration"
+msgstr "Maksimaalne broneeringu kestus"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Maximum file size"
+msgstr "Maksimaalne faili suurus"
+
+#: build/admin.js:1 dist/admin.js:1
+msgctxt "Megabytes"
+msgid "MB"
+msgstr "MB"
+
+#: includes/core/booking/Field.php:366
+msgid "mime type \"%s\" is not allowed"
+msgstr "miimi tüüp \"%s\" pole lubatud"
+
+#: build/admin.js:1 dist/admin.js:1
+msgctxt "Minimum"
+msgid "Min"
+msgstr "Min."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:274
+msgid "Minimum booking duration"
+msgstr "Minimaalne broneeringu kestus"
+
+#: includes/core/events/Event.php:1012 build/admin.js:1 build/shortcode.js:1
+#: dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Minutes"
+msgid "min"
+msgstr "min"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:93
+msgid "Mobile"
+msgstr "Mobiil"
+
+#: build/admin.js:1
+msgid "Modified price per hour when this rule applies."
+msgstr "Muudetud tunnihind, kui see reegel kehtib."
+
+#: build/admin.js:1 dev/AddHolidays.js:109
+msgid "Modifier"
+msgstr "Muutuja"
+
+#: build/admin.js:1
+msgid "Modifies the final price for the event duration and extras added up."
+msgstr "Muudab sündmuse kestuse lõpphinda koos lisadega."
+
+#: dev/AddHolidays.js:102
+msgid "Modify"
+msgstr "Muuda"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Month"
+msgstr "Kuu"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Months"
+msgstr "Kuud"
+
+#. translators: %s: post title
+#: includes/core/admin/EventList.php:161
+msgid "Move &#8220;%s&#8221; to the Trash"
+msgstr "Liiguta &#8220;%s&#8221; prügikasti"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Move event to a different date"
+msgstr "Teisalda sündmus teisele kuupäevale"
+
+#: includes/core/admin/EventList.php:178
+msgid "Move to calendar"
+msgstr "Liiguta kalendrisse"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA__premium_only.php:18
+msgid "Multiple coupons"
+msgstr "Mitu kupongi"
+
+#: includes/core/admin/EventList.php:50 includes/core/booking/Booking.php:690
+#: build/admin.js:1 build/shortcode.js:1 dev/AddHolidays.js:124 dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Name"
+msgstr "Nimi"
+
+#: includes/core/booking/Booking.php:598
+msgctxt "New booking admin notification e-mail title (formatted date)"
+msgid "New booking: %s"
+msgstr "Uus broneering: %s"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Next"
+msgstr "Järgmine"
+
+#: includes/core/booking/Field.php:315 build/admin.js:1 build/shortcode.js:1
+#: dist/admin.js:1 dist/shortcode.js:1
+msgid "No"
+msgstr "Ei"
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgid "No additional info is required, please proceed."
+msgstr "Täiendavat teavet pole vaja, jätkake."
+
+#: includes/core/Shortcode.php:93
+msgid "No calendar ID specified in the `id` attribute."
+msgstr "`id` attribuudis pole kalendri ID-d määratud."
+
+#: includes/core/booking/Booking.php:316
+#: includes/core/calendars/Calendar.php:776
+#: includes/core/rest/endpoints/Events.php:151
+msgid "No nonce."
+msgstr "Kontrollkood puudub."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "None"
+msgstr "Mitte ühtegi"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Not applicable"
+msgstr "Ei kehti"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Notes"
+msgstr "Märkmed"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:302
+msgid "Notice emails"
+msgstr "Teavitusmailid"
+
+#: includes/config/FIELD_TYPES.php:20
+msgid "Number"
+msgstr "Number"
+
+#: includes/core/booking/paymentmethods/OnSite.php:24
+msgid "On-site payment by the client"
+msgstr "Tasumine kliendi poolt kohapeal"
+
+#: includes/core/booking/paymentmethods/OnSite.php:54
+msgctxt "On-site: Payment message content."
+msgid "%1$sInvoice%2$s has been sent to your e-mail."
+msgstr "%1$sArve%2$s on saadetud teie e-postile."
+
+#: includes/core/booking/paymentmethods/OnSite.php:55
+msgctxt "On-site: Payment message content."
+msgid ""
+"Failed to send invoice to your e-mail, please open it from %1$shere%2$s."
+msgstr ""
+"Arve saatmine teie e-postile ebaõnnestus, palun avage see %1$ssiit%2$s."
+
+#: includes/core/booking/PriceCalculator.php:420
+msgid "Only one coupon can be used at a time."
+msgstr "Korraga saab kasutada ainult ühte kupongi."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Open booking modal automatically"
+msgstr "Ava broneerimisaken automaatselt"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Open event content modal automatically"
+msgstr "Ava sündmuse sisu aken automaatselt"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:14
+msgid "Opening hour"
+msgstr "Avamisaeg"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Opens a link to the generated PDF invoice."
+msgstr "Avab lingi loodud PDF-arvele."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Opens in new tab"
+msgstr "Avaneb uuel vahelehel"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Options"
+msgstr "Valikud"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "OR"
+msgstr "VÕI"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Order"
+msgstr "Tellimus"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Order ID..."
+msgstr "Tellimuse ID..."
+
+#: includes/core/events/Event.php:1324
+msgid "Order not found."
+msgstr "Tellimust ei leitud."
+
+#: includes/core/events/EventPostType.php:587 build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Overlapping with another event."
+msgstr "Kattub teise sündmusega."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:135
+msgid "Override price text..."
+msgstr "Asenda hinna tekst..."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Overwrite"
+msgstr "Kirjuta üle"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA__premium_only.php:9
+msgid "Parent"
+msgstr "Vanem"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Paste it to any page to display the booking calendar."
+msgstr "Broneerimiskalendri kuvamiseks kleepige see mis tahes lehele."
+
+#: includes/core/booking/paymentmethods/PayPal.php:34
+#: includes/core/booking/paymentmethods/PayPal.php:117
+msgid "Pay with PayPal"
+msgstr "Makske PayPaliga"
+
+#: includes/core/booking/paymentmethods/Stripe.php:38
+#: includes/core/booking/paymentmethods/Stripe.php:135
+msgid "Pay with Stripe"
+msgstr "Maksa Stripe'iga"
+
+#: includes/core/booking/Booking.php:773 build/admin.js:1 dist/admin.js:1
+msgid "Payment"
+msgstr "Maksmine"
+
+#: includes/core/booking/Payment.php:203
+msgid "Payment errors"
+msgstr "Maksevead"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Payment is handled by WooCommerce"
+msgstr "Maksmine käib läbi WooCommerce-i"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Payment method"
+msgstr "Makseviis"
+
+#: includes/core/booking/paymentmethods/BankTransfer.php:19
+msgctxt "Payment method name"
+msgid "Bank transfer"
+msgstr "Pangaülekanne"
+
+#: includes/core/booking/paymentmethods/OnSite.php:19
+msgctxt "Payment method name"
+msgid "On-site"
+msgstr "Tasumine kohapeal"
+
+#: includes/core/booking/paymentmethods/PayPal.php:29
+#: includes/core/booking/paymentmethods/PayPal.php:243
+msgctxt "Payment method name"
+msgid "PayPal"
+msgstr "PayPal"
+
+#: includes/core/booking/paymentmethods/Stripe.php:33
+msgctxt "Payment method name"
+msgid "Stripe"
+msgstr "Stripe"
+
+#: includes/core/booking/Booking.php:294
+msgid "Payment method not selected."
+msgstr "Makseviis pole valitud."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Payment methods"
+msgstr "Makseviisid"
+
+#: includes/core/booking/paymentmethods/BankTransfer.php:51
+#: includes/core/booking/paymentmethods/OnSite.php:58
+msgctxt "Payment notice header"
+msgid "Payment"
+msgstr "Maksmine"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Payment type"
+msgstr "Maksetüüp"
+
+#: includes/core/events/Event.php:730
+msgctxt "Payment type"
+msgid "Unknown"
+msgstr "Teadmata"
+
+#: build/admin.js:1 dist/admin.js:1
+msgctxt "Payment type amount value unit"
+msgid "%"
+msgstr "%"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Payment type name..."
+msgstr "Maksetüübi nimi..."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Payment types"
+msgstr "Maksetüübid"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid ""
+"Payment types allow the user to choose how big percentage of the total "
+"booking cost to pay up front. When a payment type with an amount less than "
+"100 is used then the invoice will reflect the smaller value and upon "
+"successful payment the booking status will be changed to \"Escrow paid\" "
+"instead of \"Paid in full\"."
+msgstr ""
+"Maksetüübid võimaldavad kasutajal valida kui suure protsendi broneeringu "
+"kogumaksumusest ettemakse teha. Kui kasutatakse makseviisi mille summa on "
+"väiksem kui 100, siis kajastatakse arvel väiksemat väärtust ja eduka makse "
+"korral muutub broneeringu olekuks \"Osaliselt tasutud\" mitte \"Tasutud\"."
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgid "pc"
+msgid_plural "pcs"
+msgstr[0] "tk"
+msgstr[1] "tk"
+
+#: includes/core/Pdf.php:240
+msgid "PDF deletion is not enabled."
+msgstr "PDF-i kustutamine pole sisse lülitatud."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:434
+msgid "PDF document title displayed in the title bar of a user agent."
+msgstr "PDF-dokumendi pealkiri, mis kuvatakse kasutajaagendi tiitliribal."
+
+#: includes/core/Pdf.php:147
+msgid "PDF generation is not enabled."
+msgstr "PDF-i genereerimine pole sisse lülitatud."
+
+#: templates/invoice.php:137
+msgctxt "PDF invoice"
+msgid "Amount"
+msgstr "Kogus"
+
+#: templates/invoice.php:182
+msgctxt "PDF invoice"
+msgid "Amount spelled out: %s"
+msgstr "Välja kirjutatud summa: %s"
+
+#: templates/invoice.php:145
+msgctxt "PDF invoice"
+msgid "Booking"
+msgstr "Broneering"
+
+#: templates/invoice.php:116
+msgctxt "PDF invoice"
+msgid "Due date:"
+msgstr "Tähtaeg:"
+
+#: templates/invoice.php:111
+msgctxt "PDF invoice"
+msgid "Invoice date:"
+msgstr "Arve kuupäev:"
+
+#: templates/invoice.php:121
+msgctxt "PDF invoice"
+msgid "Invoice from:"
+msgstr "Arve esitaja:"
+
+#: templates/invoice.php:77
+msgctxt "PDF invoice"
+msgid "Invoice number"
+msgstr "Arve number"
+
+#: templates/invoice.php:105
+msgctxt "PDF invoice"
+msgid "Invoice number:"
+msgstr "Arve number:"
+
+#: templates/invoice.php:128
+msgctxt "PDF invoice"
+msgid "Invoice to: %s"
+msgstr "Arve saaja: %s"
+
+#: templates/invoice.php:138
+msgctxt "PDF invoice"
+msgid "Price"
+msgstr "Hind"
+
+#: templates/invoice.php:136
+msgctxt "PDF invoice"
+msgid "Product/service"
+msgstr "Toode/teenus"
+
+#: templates/invoice.php:158
+msgctxt "PDF invoice"
+msgid "Subtotal:"
+msgstr "Vahesumma:"
+
+#: templates/invoice.php:164
+msgctxt "PDF invoice"
+msgid "Tax:"
+msgstr "Maks:"
+
+#: templates/invoice.php:139
+msgctxt "PDF invoice"
+msgid "Total"
+msgstr "Kokku"
+
+#: templates/invoice.php:174
+msgctxt "PDF invoice"
+msgid "Total:"
+msgstr "Kokku:"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:442
+msgid "PDF invoice author"
+msgstr "PDF-arve autor"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:469
+msgid "PDF invoice content"
+msgstr "PDF-arve sisu"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:478
+msgid "PDF invoice footer"
+msgstr "PDF-arve jalus"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:460
+msgid "PDF invoice from"
+msgstr "PDF-arve esitaja"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:451
+msgid "PDF invoice header"
+msgstr "PDF-arve päis"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:433
+msgid "PDF invoice title"
+msgstr "PDF-arve pealkiri"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:397
+msgid "PDF invoices"
+msgstr "PDF arved"
+
+#: includes/core/Pdf.php:74
+msgid "PDF output dir not writable."
+msgstr "PDF-i väljundkataloogi ei saa kirjutada."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid ""
+"PDF templates do not support most of the block styles, so it's best to use "
+"basic paragraphs or an HTML block."
+msgstr ""
+"PDF-mallid ei toeta enamikku plokistiile, seega on kõige parem kasutada "
+"tavalisi lõike või HTML-plokki."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Pending"
+msgstr "Ootel"
+
+#: build/admin.js:1
+msgctxt "Per hour"
+msgid "/hr"
+msgstr "/tund"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:201
+msgid ""
+"Percentage to subtract from the final price and declare as tax in the "
+"invoice."
+msgstr "Lõpphinnast lahutatav ja arvel maksuna deklareeritav protsent."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Perform selected action"
+msgstr "Teosta valitud toiming"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Personal data removed"
+msgstr "Isikuandmed eemaldatud"
+
+#: includes/config/DEFAULT_FIELDS.php:36 build/admin.js:1 build/shortcode.js:1
+#: dist/admin.js:1 dist/shortcode.js:1
+msgid "Phone"
+msgstr "Telefon"
+
+#: includes/core/admin/About.php:145
+msgid "PHP NumberFormatter"
+msgstr "PHP NumberFormatter"
+
+#: includes/core/admin/About.php:141
+msgid "PHP version"
+msgstr "PHP versioon"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Placeholder"
+msgstr "Kohatäide"
+
+#: includes/core/Shortcode.php:108
+msgid ""
+"Please activate WooCommerce or remove this calendar's association with a "
+"WooCommerce product."
+msgstr ""
+"Aktiveerige WooCommerce või eemaldage selle kalendri seos WooCommerce'i "
+"tootega."
+
+#: includes/core/events/EventPostType.php:617 build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Please leave at least %s minutes after the previous event."
+msgstr "Jätke eelmise sündmuse vahele vähemalt %s minutit."
+
+#: includes/core/events/EventPostType.php:625 build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Please leave at least %s minutes before the next event."
+msgstr "Jätke vähemalt %s minutit enne järgmist sündmust."
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgid "Please select a service from above."
+msgstr "Valige ülaltpoolt teenus."
+
+#: includes/core/admin/Admin.php:75 includes/core/admin/Admin.php:76
+msgctxt "Plugin admin menu item"
+msgid "Calendars"
+msgstr "Kalendrid"
+
+#: includes/core/Logger.php:112 includes/core/Logger.php:113
+msgctxt "Plugin admin menu item"
+msgid "Logs"
+msgstr "Logid"
+
+#: includes/core/admin/Admin.php:65 includes/core/admin/Admin.php:66
+msgctxt "Plugin admin root menu item"
+msgid "Booking"
+msgstr "Broneerimine"
+
+#: includes/core/admin/About.php:119
+msgid "Plugin version"
+msgstr "Plugina versioon"
+
+#: includes/config/EVENT_META_SCHEMA.php:314
+msgid "Plugin version when event was created"
+msgstr "Plugina versioon sündmuse loomisel"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Premium"
+msgstr "Tasuline versioon"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:261
+msgid ""
+"Prevent booking more than n days in advance. Setting this value to 1 will "
+"only allow booking on the current day, 2 will allow booking for today and "
+"tomorrow, and so on. Setting this value to 0 will allow booking into any "
+"time in the future."
+msgstr ""
+"Vältige broneerimist rohkem kui n päeva ette. Selle väärtuse määramine 1-le "
+"võimaldab broneerida ainult praegusel päeval, 2 võimaldab broneerida "
+"tänaseks ja homseks jne. Selle väärtuse määramine 0-le võimaldab broneerida "
+"mis tahes ajale tulevikku."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:289
+msgid ""
+"Prevent creating bookings longer than this value (in minutes). Setting this "
+"value to 0 will allow creating a booking of any duration limited by opening "
+"and closing hour settings."
+msgstr ""
+"Vältige sellest väärtusest pikemate broneeringute loomist (minutites). Selle "
+"väärtuse määramine 0-le võimaldab luua mis tahes kestusega broneeringu, mis "
+"on piiratud avamis- ja sulgemisaja sätetega."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:275
+msgid ""
+"Prevent creating bookings shorter than this value (in minutes). When this "
+"value is 0 then the \"Calendar -> Step\" setting acts as the minimum booking "
+"duration."
+msgstr ""
+"Väldi sellest väärtusest lühemate broneeringute loomist (minutites). Kui see "
+"väärtus on 0, toimib seadistus \"Kalender -> Samm\" minimaalse broneeringu "
+"kestusena."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Prevent overlap"
+msgstr "Väldi kattumist"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Preview"
+msgstr "Eelvaade"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Previous"
+msgstr "Eelmine"
+
+#: includes/core/admin/EventList.php:53 includes/core/booking/Booking.php:770
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Price"
+msgstr "Hind"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Price label when price is 0"
+msgid "Free"
+msgstr "Tasuta"
+
+#: build/admin.js:1
+msgctxt "Price modification type"
+msgid "Modify final price"
+msgstr "Muuda lõplikku hinda"
+
+#: build/admin.js:1
+msgctxt "Price modification type"
+msgid "Modify price per hour"
+msgstr "Muuda tunnihinda"
+
+#: build/admin.js:1
+msgctxt "Price modification type"
+msgid "Set final price"
+msgstr "Määra lõplik hind"
+
+#: build/admin.js:1
+msgctxt "Price modification type"
+msgid "Set price per hour"
+msgstr "Määra tunnihind"
+
+#: build/admin.js:1
+msgctxt "Price modification type"
+msgid "Set total price"
+msgstr "Määra koguhind"
+
+#: build/admin.js:1
+msgid "Price name..."
+msgstr "Hinna nimi..."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:150 build/admin.js:1
+#: build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Price per hour"
+msgstr "Tunnihind"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Price per hour"
+msgid "%s/hr"
+msgstr "%s/tund"
+
+#: build/admin.js:1
+msgid "Price per hour and currency can be changed from Settings -> Pricing."
+msgstr "Tunnihinda ja valuutat saab muuta menüüst Seaded -> Hinnakujundus."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:151
+msgid "Price per hour for bookings in this calendar."
+msgstr "Tunnihind selle kalendri broneeringutele."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Price per unit"
+msgid "%s/pc"
+msgstr "%s/tk"
+
+#: build/admin.js:1
+msgid "Price rule types"
+msgstr "Hinnareeglite tüübid"
+
+#: build/admin.js:1
+msgid ""
+"Price with this ID already exists, create a new price with the imported data."
+msgstr "Selle ID-ga hind on juba olemas, looge imporditud andmetega uus hind."
+
+#: build/admin.js:1
+msgid "Price with this ID already exists, overwrite it with the imported data."
+msgstr ""
+"Selle ID-ga hind on juba olemas, kirjutage see imporditud andmetega üle."
+
+#: build/admin.js:1
+msgid "Prices"
+msgstr "Hinnad"
+
+#: build/admin.js:1
+msgid "Pricing"
+msgstr "Hinnakujundus"
+
+#: build/admin.js:1
+msgid ""
+"Pricing rules can be added to modify the calendar's price per hour based on "
+"date, time, duration or coupons."
+msgstr ""
+"Hinnakujundusreegleid saab lisada, et muuta kalendri tunnihinda kuupäeva, "
+"kellaaja, kestuse või kupongide alusel."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Private"
+msgstr "Privaatne"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:119
+msgid "Product"
+msgstr "Toode"
+
+#: includes/core/Shortcode.php:123
+msgid ""
+"Product associated with the calendar is not a \"Booking product\". Please "
+"change the product type."
+msgstr ""
+"Kalendriga seotud toode ei ole \"Broneeritav toode\". Palun muutke toote "
+"tüüpi."
+
+#: includes/core/Shortcode.php:117
+msgid "Product associated with the calendar was not found."
+msgstr "Kalendriga seotud toodet ei leitud."
+
+#: includes/core/events/Event.php:1327
+msgid "Product not found."
+msgstr "Toodet ei leitud."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:128
+msgid "Product price"
+msgstr "Toote hind"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Provides a direct link to an event."
+msgstr "Annab otselingi sündmusele."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Public"
+msgstr "Avalik"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Public link for the booking"
+msgstr "Avalik link broneeringule"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Public link for the event"
+msgstr "Avalik link sündmusele"
+
+#: includes/config/FIELD_TYPES.php:32
+msgid "Radio"
+msgstr "Raadio"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Raw data"
+msgstr "Algandmed"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Redo"
+msgstr "Tee uuesti"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Regenerate PDF invoice"
+msgstr "Taasgenereerige PDF-arve"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid ""
+"Regenerate the PDF invoice. The invoice can be automatically regenerated "
+"whenever event data changes if the \"Settings -> PDF -> Automatic "
+"regeneration\" option is enabled, but you may wish to manually regenerate "
+"when you modify the PDF settings or template."
+msgstr ""
+"Taasgenereerige PDF-arve. Kui seade \"Seaded -> PDF -> Automaatne "
+"taasloomine\" on sisse lülitatud genereeritakse arve automaatselt uuesti kui "
+"sündmuse andmed muutuvad, kuid PDF-i sätete või malli muutmisel saab PDF-i "
+"käsitsi uuesti genereerida."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Regenerated PDF"
+msgstr "PDF taasgenereeritud"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Reload"
+msgstr "Uuenda"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:365
+msgid "Reminder e-mail"
+msgstr "Meeldetuletus e-mail"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:379
+msgid "Reminder e-mail content"
+msgstr "Meeldetuletusmeili sisu"
+
+#: includes/core/Email.php:194
+msgctxt "Reminder e-mail title"
+msgid "Booking reminder"
+msgstr "Broneeringu meeldetuletus"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Remove"
+msgstr "Eemalda"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Remove %s from ignored dates."
+msgstr "Eemalda %s ignoreeritud kuupäevadest."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Remove %s from selected dates."
+msgstr "Eemalda %s valitud kuupäevadest."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Remove personal data"
+msgstr "Eemalda isikuandmed"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid ""
+"Removes this booking from a WooCommerce order. You can then attach it to "
+"another order by specifying the order ID."
+msgstr ""
+"Eemaldab selle broneeringu WooCommerce'i tellimusest. Seejärel saate selle "
+"lisada mõnele teisele tellimusele, määrates tellimuse ID."
+
+#: build/admin.js:1
+msgid "Repeat"
+msgstr "Korduv"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "repeat"
+msgid_plural "repeats"
+msgstr[0] "kordus"
+msgstr[1] "kordust"
+
+#: includes/core/booking/RuleRegistry.php:151
+#: includes/core/booking/RuleRegistry.php:156
+msgid "Repeat date"
+msgstr "Korduskuupäev"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Repeat days"
+msgstr "Korduspäevad"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Repeat type"
+msgstr "Kordumistüüp"
+
+#: includes/core/Sanitizer.php:529 includes/core/Sanitizer.php:573
+msgid "Repeater contains invalid keys."
+msgstr "Kordaja sisaldab vigaseid võtmeid."
+
+#: includes/core/rest/Endpoint.php:77
+msgid "Request failed."
+msgstr "Päring ebaõnnestus."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Required"
+msgstr "Nõutud"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Resend invoice"
+msgstr "Saada arve uuesti"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Resend reminder"
+msgstr "Saada meeldetuletus uuesti"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Reset to default"
+msgstr "Taasta algseadistus"
+
+#: includes/core/admin/EventList.php:154
+msgid "Restore"
+msgstr "Taasta"
+
+#. translators: %s: post title
+#: includes/core/admin/EventList.php:153
+msgid "Restore &#8220;%s&#8221; from the Trash"
+msgstr "Taasta &#8220;%s&#8221; prügikastist"
+
+#: templates/about.php:36
+#| msgid "Restore an older version of Booking Weir calendars configuration."
+msgid "Restore an older version of calendars configuration."
+msgstr "Taasta eelnev seadistus."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Restore from trash"
+msgstr "Taasta prügikastist"
+
+#: includes/core/admin/About.php:178
+msgid "Restored calendar."
+msgstr "Kalender taastatud."
+
+#: build/admin.js:1 build/blocks.js:1 build/shortcode.js:1 dist/admin.js:1
+#: dist/blocks.js:1 dist/shortcode.js:1
+msgid "Retry"
+msgstr "Proovi uuesti"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Return to calendars list"
+msgstr "Tagasi kalendrite loendisse"
+
+#: templates/about.php:54
+msgid "Roll back"
+msgstr "Keri tagasi"
+
+#: build/admin.js:1
+msgid "Rule name..."
+msgstr "Reegli nimi..."
+
+#: includes/core/booking/paymentmethods/PayPal.php:62
+#: includes/core/booking/paymentmethods/Stripe.php:66
+msgid "Sandbox"
+msgstr "Testkeskkond"
+
+#: includes/core/events/EventPostType.php:187
+msgid "Sanitize callback is required for: %s."
+msgstr "Desinfitseerimis funktsioon on vajalik: %s."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Save"
+msgstr "Salvesta"
+
+#: includes/config/FIELD_TYPES.php:26 templates/logs.php:18
+msgid "Select"
+msgstr "Vali"
+
+#: includes/core/admin/EventList.php:331
+msgid "Select a calendar..."
+msgstr "Vali kalender..."
+
+#: dev/AddHolidays.js:84
+msgid "Select a country"
+msgstr "Vali riik"
+
+#: build/admin.js:1
+msgid "Select a pricing type"
+msgstr "Valige hinnakujunduse tüüp"
+
+#: build/admin.js:1
+msgid "Select a service type"
+msgstr "Valige teenuse tüüp"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Select calendar..."
+msgstr "Vali kalender..."
+
+#: build/admin.js:1
+msgid "Select extras..."
+msgstr "Vali lisad..."
+
+#: build/admin.js:1
+msgid "Select field type..."
+msgstr "Vali välja tüüp..."
+
+#: build/admin.js:1
+msgid "Select services..."
+msgstr "Vali teenused..."
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgid "Select..."
+msgstr "Vali..."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Selected"
+msgstr "Valitud"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Send a reminder e-mail again."
+msgstr "Saatke meeldetuletusmeil uuesti."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid ""
+"Send a reminder e-mail. Once sent, if automatic reminders are enabled it "
+"will not send another reminder for this event."
+msgstr ""
+"Saada meeldetuletus e-mail. Kui automaatsed meeldetuletused on lubatud, ei "
+"saada see pärast saatmist selle sündmuse kohta enam meeldetuletust."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:330
+msgid ""
+"Send an e-mail to the booker when a booking has been successfully created."
+msgstr "Kui broneering on edukalt loodud, saad broneerijale e-kiri."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:348
+msgid ""
+"Send an e-mail to the booker when booking status is changed to \"Confirmed\"."
+msgstr ""
+"Saada broneerijale e-kiri, kui broneeringu olekuks seatakse \"Kinnitatud\"."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Send an invoice e-mail again."
+msgstr "Saada arve meil uuesti."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:347
+msgid "Send confirmation e-mail"
+msgstr "Saada kinnitusmeil"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Send invoice"
+msgstr "Saada arve"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:329
+msgid "Send invoice e-mail"
+msgstr "Saada arve e-mail"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:424
+msgid "Send invoice without payment method"
+msgstr "Saada arve ilma makseviisita"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Send reminder"
+msgstr "Saada meeldetuletus"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Sent"
+msgstr "Saadetud"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Sent invoice e-mail"
+msgstr "Arvega meil saadetud"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Sent reminder e-mail"
+msgstr "Meeldetuletusmeil saadetud"
+
+#: includes/core/admin/About.php:150
+msgid "Server"
+msgstr "Server"
+
+#: includes/core/booking/Booking.php:709
+#: includes/core/booking/RuleRegistry.php:263
+#: includes/integrations/woocommerce/WooCommerce.php:186
+#: includes/integrations/woocommerce/WooCommerce.php:284 build/admin.js:1
+#: build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Service"
+msgstr "Teenus"
+
+#: build/admin.js:1
+msgid "Service \"%s\" description"
+msgstr "Teenuse \"%s\" kirjeldus"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Service %s not found."
+msgstr "Teenust %s ei leitud."
+
+#: includes/core/booking/Booking.php:271
+msgid "Service ID is required."
+msgstr "Teenuse ID on nõutav."
+
+#: includes/config/EVENT_META_SCHEMA.php:93
+msgid "Service ID that the event was booked for"
+msgstr "Teenuse ID, mille jaoks sündmus broneeriti"
+
+#: build/admin.js:1
+msgid "Service name..."
+msgstr "Teenuse nimi..."
+
+#: build/admin.js:1
+msgid "Service types"
+msgstr "Teenuste tüübid"
+
+#: build/admin.js:1
+msgid "Service with a fixed hourly price and duration."
+msgstr "Teenus fikseeritud tunnihinna ja kestusega."
+
+#: build/admin.js:1
+msgid "Service with a fixed hourly price for any duration."
+msgstr "Fikseeritud tunnihinnaga teenus mis tahes pikkusega."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:250 build/admin.js:1
+msgid "Services"
+msgstr "Teenused"
+
+#: build/admin.js:1
+msgid ""
+"Services allow the user to book a time with a predefined duration and price."
+msgstr ""
+"Teenused võimaldavad kasutajal broneerida etteantud kestuse ja hinnaga "
+"aegasid."
+
+#: build/admin.js:1 dist/admin.js:1
+msgctxt "Setting category title"
+msgid "Booking"
+msgstr "Broneerimine"
+
+#: build/admin.js:1 dist/admin.js:1
+msgctxt "Setting category title"
+msgid "Calendar"
+msgstr "Kalender"
+
+#: build/admin.js:1 dist/admin.js:1
+msgctxt "Setting category title"
+msgid "E-mail"
+msgstr "E-post"
+
+#: build/admin.js:1 dist/admin.js:1
+msgctxt "Setting category title"
+msgid "Locale"
+msgstr "Lokaal"
+
+#: build/admin.js:1 dist/admin.js:1
+msgctxt "Setting category title"
+msgid "Miscellaneous"
+msgstr "Muu"
+
+#: build/admin.js:1 dist/admin.js:1
+msgctxt "Setting category title"
+msgid "PDF"
+msgstr "PDF"
+
+#: build/admin.js:1 dist/admin.js:1
+msgctxt "Setting category title"
+msgid "Pricing"
+msgstr "Hinnakujundus"
+
+#: build/admin.js:1 build/blocks.js:1 dist/admin.js:1 dist/blocks.js:1
+msgid "Settings"
+msgstr "Seaded"
+
+#: build/admin.js:1
+msgid "Show %s more"
+msgstr "Näita %s veel"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:233
+msgid ""
+"Show a warning message when the browser and calendar timezone is different."
+msgstr "Kuva hoiatusteadet, kui brauseri ja kalendri ajavöönd on erinevad."
+
+#: includes/core/admin/EventList.php:93
+msgid "Show all"
+msgstr "Näita kõike"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:43
+msgid "Show Saturday and Sunday in the calendar week view."
+msgstr "Näita kalendris nädalavaates laupäeva ja pühapäeva."
+
+#: includes/core/booking/Booking.php:716
+#: includes/integrations/woocommerce/WooCommerce.php:192
+#: includes/integrations/woocommerce/WooCommerce.php:292 build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Slot"
+msgstr "Pesa"
+
+#: includes/core/events/Event.php:119 includes/core/events/Event.php:475
+#: includes/core/events/Event.php:486 build/admin.js:1 build/shortcode.js:1
+#: dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Slot event public title"
+msgid "Slot"
+msgstr "Pesa"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:241
+msgid "Slots"
+msgstr "Pesad"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:65
+msgid "Space"
+msgstr "Vahe"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid ""
+"Specify the page URL that the calendar is on at Settings -> Calendar -> URL."
+msgstr ""
+"Määrake avaliku lehe URL millel kalender on kasutusel, menüüs Seaded -> "
+"Kalender -> URL."
+
+#: includes/core/events/Event.php:1234
+msgctxt "Spelled out currency"
+msgid "cents"
+msgstr "senti"
+
+#: includes/core/booking/Booking.php:768 build/admin.js:1 build/shortcode.js:1
+#: dist/admin.js:1 dist/shortcode.js:1
+msgid "Start"
+msgstr "Algus"
+
+#: includes/core/events/EventPostType.php:434
+msgid "Start and end times are equal."
+msgstr "Algus- ja lõpuajad on võrdsed."
+
+#: includes/core/booking/RuleRegistry.php:60
+#: includes/core/booking/RuleRegistry.php:108
+msgid "Start time"
+msgstr "Algusaeg"
+
+#: includes/core/events/EventPostType.php:476 build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Start time is earlier than current time."
+msgstr "Algusaeg on praegusest ajast varasem."
+
+#: includes/core/events/EventPostType.php:480 build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Start time is earlier than opening hours."
+msgstr "Algusaeg on varasem kui lahtiolekuaeg."
+
+#: includes/core/events/EventPostType.php:437 build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Start time is later than end time."
+msgstr "Algusaeg on lõpuajast hilisem."
+
+#: includes/core/events/EventPostType.php:369
+msgid "Start time missing."
+msgstr "Algusaeg puudu."
+
+#: includes/core/events/Event.php:601
+msgid "Started"
+msgstr "On alanud"
+
+#: includes/core/booking/Booking.php:727
+msgid "Starts in"
+msgstr "Aega alguseni"
+
+#: includes/core/admin/EventList.php:51 includes/core/booking/Booking.php:722
+#: build/admin.js:1 dist/admin.js:1
+msgid "Status"
+msgstr "Olek"
+
+#: includes/core/Email.php:236
+msgctxt "Status e-mail title"
+msgid "Booking status update"
+msgstr "Broneeringu olek muutus"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:51 build/admin.js:1
+#: dist/admin.js:1
+msgid "Step"
+msgstr "Samm"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Stop editing"
+msgstr "Lõpetage redigeerimine"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid ""
+"Strips all personal data from the booking (name, e-mail, phone, additional "
+"info, transaction ID, PDF invoice) and sets the status to \"Archived\"."
+msgstr ""
+"Eemaldab broneeringust kõik isikuandmed (nimi, e-post, telefon, lisainfo, "
+"tehingu ID, PDF-arve) ja seab olekuks \"Arhiveeritud\"."
+
+#: includes/core/booking/Booking.php:419
+msgid "Submitted field \"%s\" is disabled."
+msgstr "Esitatud väli \"%s\" on välja lülitatud."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgctxt "Suffix for a duplicated calendar, %s = current date"
+msgid " (copy %s)"
+msgstr "(koopia %s)"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Support"
+msgstr "Toetus"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Switch to text mode"
+msgstr "Lülituge tekstirežiimile"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Switch to visual mode"
+msgstr "Lülitage visuaalselrežiimile"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:174
+msgid "Symbol to display after currency."
+msgstr "Valuuta järel kuvatav sümbol."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:165
+msgid "Symbol to display before currency."
+msgstr "Valuuta ees kuvatav sümbol."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:200
+msgid "Tax"
+msgstr "Maksud"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Template string"
+msgstr "Šabloontekst"
+
+#: includes/config/DEFAULT_FIELDS.php:50 includes/config/FIELD_TYPES.php:56
+msgid "Terms"
+msgstr "Tingimused"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Terms and conditions link..."
+msgstr "Tingimuste link..."
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgid "Test"
+msgstr "Test"
+
+#: includes/core/booking/paymentmethods/Stripe.php:50
+msgid "Test API secret key"
+msgstr "Test API salavõti"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Test PDF generation"
+msgstr "Testi PDF-i genereerimine"
+
+#: includes/config/FIELD_TYPES.php:8
+msgid "Text"
+msgstr "Tekst"
+
+#: includes/config/FIELD_TYPES.php:14
+msgid "Textarea"
+msgstr "Tekstiala"
+
+#: includes/core/booking/paymentmethods/PayPal.php:180
+#: includes/core/booking/paymentmethods/Stripe.php:195
+msgid "Thank you for your payment."
+msgstr "Tänan makse eest."
+
+#: templates/logs.php:50
+msgid ""
+"The directory needs to be writable and ideally outside of the web server "
+"root."
+msgstr ""
+"Kataloog peab olema kirjutatav ja ideaalselt väljaspool veebiserveri "
+"juurkataloogi."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "The name of this calendar."
+msgstr "Selle kalendri nimi."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:224
+msgid "The timezone in which the events in this calendar are booked."
+msgstr "Ajavöönd, milles selle kalendri sündmused broneeritakse."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "There are no events in this range."
+msgstr "Selles vahemikus pole sündmusi."
+
+#: build/admin.js:1
+msgid "There are no extras for this calendar."
+msgstr "Selles kalendris pole lisasid."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "There are no fields for this calendar."
+msgstr "Selles kalendris pole välju."
+
+#: templates/logs.php:62
+msgid "There are no logs at the moment."
+msgstr "Hetkel logisid ei ole."
+
+#: build/admin.js:1
+msgid "There are no price rules for this calendar."
+msgstr "Selles kalendris pole hinnareegleid."
+
+#: build/admin.js:1
+msgid "There are no services for this calendar."
+msgstr "Selles kalendris pole teenuseid."
+
+#: includes/core/booking/paymentmethods/Stripe.php:261
+msgid "There was an error with the payment processor."
+msgstr "Makse töötlejaga tekkis viga."
+
+#: includes/core/booking/Booking.php:493
+msgid "This booking contains an extra that is disabled."
+msgstr "See broneering sisaldab lisa, mis on välja lülitatud."
+
+#: includes/core/booking/Booking.php:489
+msgid "This calendar does not contain a chosen extra."
+msgstr "See kalender ei sisalda valitud lisa."
+
+#: includes/core/booking/Booking.php:412
+msgid "This calendar does not contain a submitted field \"%s\"."
+msgstr "See kalender ei sisalda esitatud välja \"%s\"."
+
+#: includes/core/booking/paymentmethods/PayPal.php:55
+#: includes/core/booking/paymentmethods/Stripe.php:59
+msgid ""
+"Three-letter ISO code for the currency with which to perform the payment."
+msgstr "Makse sooritamiseks kasutatava valuuta kolmetäheline ISO-kood."
+
+#: includes/core/booking/RuleRegistry.php:245
+msgid "Threshold"
+msgstr "Lävi"
+
+#: templates/about.php:42 build/admin.js:1 build/shortcode.js:1 dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Time"
+msgstr "Kellaaeg"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:29
+msgid "Time after which events can't be booked."
+msgstr "Aeg, mille järel ei saa üritusi broneerida."
+
+#: includes/core/booking/RuleRegistry.php:55
+msgid "Time range"
+msgstr "Ajavahemik"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Time until reminder"
+msgstr "Aega meeldetuletuseni"
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgid ""
+"Times are booked in the %s timezone, your browser is using %s timezone. The "
+"time difference is %s."
+msgstr ""
+"Broneeringud tehakse ajavööndis %s, teie brauser kasutab %s ajavööndit. "
+"Ajavahe on %s."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:223
+msgid "Timezone"
+msgstr "Ajavöönd"
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgid "Timezone difference"
+msgstr "Ajavööndi erinevus"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:232
+msgid "Timezone warning"
+msgstr "Ajavööndi hoiatus"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Title"
+msgstr "Pealkiri"
+
+#: includes/core/admin/EventList.php:52
+#: includes/core/booking/RuleRegistry.php:134 dev/AddHolidays.js:123
+msgctxt "Title (should start with capital letter)"
+msgid "Date"
+msgstr "Kuupäev"
+
+#: build/admin.js:1 dist/admin.js:1
+msgctxt "Title for info about templates with the block editor"
+msgid "Notice"
+msgstr "Märkus"
+
+#: build/shortcode.js:1 dist/shortcode.js:1
+msgctxt ""
+"Title of the currently selected range in the calendar (displayed in Agenda)"
+msgid "Selection"
+msgstr "Valik"
+
+#: templates/logs.php:71
+msgid "To disable logging remove %1$s from your %2$s file."
+msgstr "Logimise keelamiseks eemaldage %1$s failist %2$s."
+
+#: templates/logs.php:37
+msgid "To enable logging add %1$s to your %2$s file."
+msgstr "Logimise lubamiseks lisage %1$s oma %2$s faili."
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Today"
+msgstr "Täna"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Tomorrow"
+msgstr "Homme"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Total price"
+msgstr "Hind kokku"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Transaction"
+msgstr "Tehing"
+
+#: includes/core/booking/paymentmethods/PayPal.php:179
+#: includes/core/booking/paymentmethods/Stripe.php:194
+msgid "Transaction completed"
+msgstr "Tehing lõpetatud"
+
+#: includes/config/EVENT_META_SCHEMA.php:176
+msgid "Transaction ID when used with a payment method that supports it"
+msgstr "Tehingu ID, kui seda makseviis seda toetab"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Trash"
+msgstr "Prügi"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Trashed"
+msgstr "Prügikastis"
+
+#: includes/core/admin/EventList.php:49 build/admin.js:1 build/blocks.js:1
+#: dev/AddHolidays.js:92 dev/AddHolidays.js:125 dist/blocks.js:1
+msgid "Type"
+msgstr "Tüüp"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Type product name to search..."
+msgstr "Sisestage otsimiseks toote nimi..."
+
+#: includes/core/Pdf.php:71
+msgid "Unable to create PDF output dir."
+msgstr "PDF-i väljundkataloogi loomine nurjus."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Unable to parse file."
+msgstr "Faili ei saa sõeluda."
+
+#: includes/core/Pdf.php:243
+msgid "Unable to retrieve invoice path."
+msgstr "Arve kataloogi ei saa kätte."
+
+#: includes/core/Pdf.php:62
+msgid "Unable to retrieve upload dir."
+msgstr "Üleslaadimise kataloogi ei saa kätte."
+
+#: includes/core/Pdf.php:65
+msgid "Unable to retrieve upload URL."
+msgstr "Üleslaadimise URL-i ei saa kätte."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Unavailable"
+msgstr "Pole saadaval"
+
+#: includes/core/events/Event.php:126
+msgctxt "Unavailable event public title"
+msgid "Unavailable"
+msgstr "Pole saadaval"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Undo"
+msgstr "Võta tagasi"
+
+#: includes/config/EVENT_META_SCHEMA.php:167
+msgid "Unique identifier for billing"
+msgstr "Arvelduse kordumatu identifikaator"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Units"
+msgstr "Ühikud"
+
+#: includes/core/events/Event.php:1015
+msgctxt "Units"
+msgid "pcs"
+msgstr "tk"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Unknown"
+msgstr "Teadmata"
+
+#: includes/core/events/Event.php:986
+msgctxt "Unknown extra name"
+msgid "Unknown"
+msgstr "Teadmata"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "unlimited"
+msgstr "piiramata"
+
+#: includes/core/booking/Booking.php:392
+msgid "Unsanitary input: \"%s\"."
+msgstr "Ebasanitaarne sisend: \"%s\"."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Until"
+msgstr "Kuni"
+
+#: includes/core/booking/Extra.php:40
+msgctxt "Untitled extra's name"
+msgid "Extra"
+msgstr "Lisa"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Update"
+msgstr "Uuenda"
+
+#: includes/core/admin/About.php:123
+msgid "Upload dir"
+msgstr "Üeslaadimiste kataloog"
+
+#: includes/core/booking/Field.php:391
+msgid "Uploaded file for \"%1$s\" exceeds maximum allowed file size of %2$dMB."
+msgstr ""
+"\"%1$s\" üleslaaditud fail ületab maksimaalse lubatud failimahu %2$dMB."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:141
+msgid "URL"
+msgstr "URL"
+
+#: includes/config/EVENT_META_SCHEMA.php:194
+msgid "URL of the page that the calendar was on at the time of the booking"
+msgstr "Selle lehe URL, millel kalender broneerimise ajal oli"
+
+#: includes/core/booking/paymentmethods/Stripe.php:51
+msgid "Used when Sandbox mode is enabled."
+msgstr "Kasutatakse, kui testkeskkond on lubatud."
+
+#: includes/config/EVENT_META_SCHEMA.php:332
+msgid "User agent"
+msgstr "Kasutaja agent"
+
+#: includes/config/EVENT_META_SCHEMA.php:323
+msgid "User IP address"
+msgstr "Kasutaja IP-aadress"
+
+#: includes/core/rest/endpoints/Events.php:138
+msgid "User not elevated."
+msgstr "Kasutajal ei ole õiguseid."
+
+#: includes/core/booking/paymentmethods/PayPal.php:244
+#: includes/core/booking/paymentmethods/Stripe.php:242
+msgid "Using sandbox environment, payments are not real."
+msgstr "Kasutusel on testkeskkond, maksed pole päris."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "UTC offset"
+msgstr "UTC nihe"
+
+#: includes/core/events/EventPostType.php:388
+msgid "UTC offset mismatch: %1$d - %2$d."
+msgstr "UTC nihke ebakõla: %1$d – %2$d."
+
+#: includes/core/events/EventPostType.php:385
+msgid "UTC offset missing."
+msgstr "UTC nihe puudub."
+
+#: includes/config/EVENT_META_SCHEMA.php:73
+msgid "UTC offset of the client"
+msgstr "Kliendi UTC nihe"
+
+#: includes/core/booking/RuleRegistry.php:188
+msgid "Valid for"
+msgstr "Kehtib kuupäevadel"
+
+#: includes/core/booking/RuleRegistry.php:183
+msgid "Valid From - To"
+msgstr "Kehtib alates - kuni"
+
+#: build/admin.js:1
+msgid "Value"
+msgstr "Väärtus"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Value..."
+msgstr "Väärtus..."
+
+#: includes/core/admin/EventList.php:162
+msgctxt "verb"
+msgid "Trash"
+msgstr "Liiguta prügikasti"
+
+#: includes/core/admin/EventList.php:126 build/admin.js:1 dist/admin.js:1
+msgid "View"
+msgstr "Vaata"
+
+#: includes/core/admin/EventList.php:125 includes/core/booking/Booking.php:761
+msgid "View in admin calendar"
+msgstr "Vaata halduskalendris"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "View PDF invoice"
+msgstr "Vaata PDF-arvet"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "View raw data"
+msgstr "Vaata algandmeid"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "View transaction data"
+msgstr "Vaata tehingu andmeid"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Visit calendar"
+msgstr "Külasta kalendrit"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "WC"
+msgstr "WC"
+
+#. Author of the plugin
+msgid "websevendev"
+msgstr ""
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Week"
+msgstr "Nädal"
+
+#: includes/core/booking/RuleRegistry.php:29 build/admin.js:1 dist/admin.js:1
+msgid "Week days"
+msgstr "Nädalapäevad"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Week starts on"
+msgstr "Nädal algab"
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:42
+msgid "Weekend"
+msgstr "Nädalavahetus"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Weeks"
+msgstr "Nädalad"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid ""
+"When a booking's public link is visited then an invoice e-mail is sent "
+"automatically. If you don't want that to happen you can mark the e-mail as "
+"\"sent\" without sending it."
+msgstr ""
+"Kui külastate broneeringu avalikku linki, saadetakse automaatselt arve e-"
+"kiri. Kui te ei soovi, et see juhtuks, võite märkida e-kirja \"saadetuks\" "
+"ilma seda saatmata."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid ""
+"When a booking's public link is visited then an invoice e-mail is sent "
+"automatically. This action allows you to send it if the booking was created "
+"in the admin dashboard and you would like to notify the client."
+msgstr ""
+"Kui külastate broneeringu avalikku linki, saadetakse automaatselt arve e-"
+"kiri. See toiming võimaldab teil selle saata, kui broneering tehti "
+"administraatori poolt ja soovite klienti sellest teavitada."
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:425
+msgid ""
+"When no payment methods are enabled an \"invoice\" e-mail is still sent "
+"confirming that the booking is received. Enable this option to still include "
+"the PDF invoice with this e-mail."
+msgstr ""
+"Kui ükski makseviis pole lubatud, saadetakse endiselt \"arve\" e-kiri, mis "
+"kinnitab broneeringu kättesaamist. Lubage see suvand, et PDF-arve siiski "
+"kaasata sellele e-kirjale."
+
+#: build/admin.js:1 dist/admin.js:1
+msgid ""
+"When no payment methods are enabled an \"invoice\" e-mail is still sent "
+"confirming the booking. You can optionally include a PDF invoice in that e-"
+"mail by enabling the \"Settings -> PDF -> Send invoice without payment "
+"method\" option."
+msgstr ""
+"Kui ükski makseviis pole lubatud, saadetakse broneeringu kinnitamiseks "
+"ikkagi \"arve\" e-kiri. Soovi korral saate sellesse e-kirja lisada PDF-arve, "
+"lubades valiku \"Seaded -> PDF -> Saada arve ilma makseviisita\"."
+
+#: includes/config/EVENT_META_SCHEMA.php:305
+msgid "Whether booker has agreed to terms and conditions"
+msgstr "Kas broneerija on tingimustega nõustunud"
+
+#: includes/config/EVENT_META_SCHEMA.php:203
+msgid "Whether the e-mail after initial booking has been sent"
+msgstr "Kas esmase broneeringu järgne e-kiri on saadetud"
+
+#: includes/config/EVENT_META_SCHEMA.php:212
+msgid "Whether the e-mail after status changed to \"confirmed\" has been sent"
+msgstr "Kas e-kiri pärast oleku muutmist olekuks \"kinnitatud\" on saadetud"
+
+#: includes/config/EVENT_META_SCHEMA.php:341
+msgid "Whether the event is bookable"
+msgstr "Kas sündmus on broneeritav"
+
+#: includes/config/EVENT_META_SCHEMA.php:380
+msgid "Whether the event repeats"
+msgstr "Kas sündmus kordub"
+
+#: includes/config/EVENT_META_SCHEMA.php:221
+msgid "Whether the reminder e-mail has been sent"
+msgstr "Kas meeldetuletuse e-kiri on saadetud"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid ""
+"While the WordPress block editor can be used to edit template settings and "
+"event content, all of its features are not fully supported and the outcome "
+"depends on the context where the content is used. Treat it as a basic "
+"textarea with some benefits, don't expect WYSIWYG results from this editor, "
+"test and verify after making changes."
+msgstr ""
+"Kuigi WordPressi plokiredaktorit saab kasutada malli seadete ja sündmuste "
+"sisu muutmiseks, ei toetata kõiki selle funktsioone täielikult ja tulemus "
+"sõltub sisu kasutamise kontekstist. Käsitlege seda mõne eelisega "
+"põhitekstipiirkonnana, ärge oodake sellelt redaktorilt WYSIWYG-tulemusi, "
+"testige ja kontrollige pärast muudatuste tegemist."
+
+#: build/blocks.js:1 dist/blocks.js:1
+msgctxt "White label block title"
+msgid "Booking calendar"
+msgstr "Broneerimiskalender"
+
+#: includes/Plugin.php:226
+msgctxt "White label plugin description"
+msgid "Booking plugin."
+msgstr "Broneerimise plugin."
+
+#: includes/Plugin.php:221 build/admin.js:1 dist/admin.js:1
+msgctxt "White label plugin name"
+msgid "Booking"
+msgstr "Broneerimine"
+
+#: includes/core/events/Event.php:1321
+msgid "WooCommerce is not enabled."
+msgstr "WooCommerce pole sisse lülitatud."
+
+#: includes/config/EVENT_META_SCHEMA.php:185
+msgid "WooCommerce Order ID"
+msgstr "WooCommerce'i tellimuse ID"
+
+#: includes/integrations/woocommerce/WooCommerce.php:69
+msgctxt "WooCommerce product type name"
+msgid "Booking product"
+msgstr "Broneeritav toode"
+
+#: includes/core/admin/About.php:137
+msgid "WooCommerce version"
+msgstr "WooCommerce'i versioon"
+
+#: includes/core/admin/About.php:133
+msgid "WordPress version"
+msgstr "WordPressi versioon"
+
+#: build/admin.js:1 dist/admin.js:1
+msgid "Years"
+msgstr "Aastad"
+
+#: includes/core/booking/Field.php:315 build/admin.js:1 build/shortcode.js:1
+#: dist/admin.js:1 dist/shortcode.js:1
+msgid "Yes"
+msgstr "Jah"
+
+#: build/admin.js:1 build/shortcode.js:1 dist/admin.js:1 dist/shortcode.js:1
+msgid "Yesterday"
+msgstr "Eile"
+
+#: includes/core/booking/paymentmethods/PayPal.php:75
+msgid ""
+"You can pay %3$s of the total amount in advance for your booking by using "
+"the Paypal link %1$shere%2$s."
+msgstr ""
+"Saate oma broneeringu kogusummast ette maksta %3$s, kasutades PayPal linki "
+"%1$ssiin%2$s."
+
+#: includes/core/booking/paymentmethods/Stripe.php:79
+msgid ""
+"You can pay %3$s of the total amount in advance for your booking by using "
+"the Stripe link %1$shere%2$s."
+msgstr ""
+"Saate oma broneeringu kogusummast ette maksta %3$s, kasutades Stripe linki "
+"%1$ssiin%2$s."
+
+#: includes/core/booking/paymentmethods/PayPal.php:74
+msgid "You can pay for your booking by using the PayPal link %1$shere%2$s."
+msgstr "Broneeringu eest saate tasuda kasutades PayPal linki %1$ssiin%2$s."
+
+#: includes/core/booking/paymentmethods/Stripe.php:78
+msgid "You can pay for your booking by using the Stripe link %1$shere%2$s."
+msgstr "Broneeringu eest saate tasuda kasutades Stripe linki %1$ssiin%2$s."
+
+#: templates/logs.php:45
+msgid "You can set a custom log directory by adding %1$s to your %2$s file."
+msgstr "Saate määrata kohandatud logikataloogi, lisades %1$s oma %2$s faili."
+
+#: includes/core/booking/Field.php:236
+msgid "You must agree to terms and conditions."
+msgstr "Peate nõustuma tingimustega."
+
+#: includes/core/booking/Booking.php:606
+msgid "Your chosen time has been booked."
+msgstr "Teie valitud aeg on broneeritud."

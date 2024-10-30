@@ -1,0 +1,4608 @@
+# Copyright (C) 2022 websevendev
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Booking Weir 1.0.11\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/booking-weir\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-03-01T16:21:30+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: booking-weir\n"
+
+#. Plugin Name of the plugin
+#: includes/core/Blocks.php:47
+#: includes/Plugin.php:223
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Booking Weir"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://chap.website/booking-weir"
+msgstr ""
+
+#. Description of the plugin
+msgid "Display a calendar that allows to select and book a time."
+msgstr ""
+
+#. Author of the plugin
+msgid "websevendev"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://chap.website/author/websevendev"
+msgstr ""
+
+#: includes/config/BOOKING_STATUSES.php:8
+msgctxt "Booking status"
+msgid "In cart"
+msgstr ""
+
+#: includes/config/BOOKING_STATUSES.php:15
+msgctxt "Booking status"
+msgid "Detached"
+msgstr ""
+
+#: includes/config/BOOKING_STATUSES.php:22
+msgctxt "Booking status"
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/config/BOOKING_STATUSES.php:29
+msgctxt "Booking status"
+msgid "Awaiting"
+msgstr ""
+
+#: includes/config/BOOKING_STATUSES.php:35
+msgctxt "Booking status"
+msgid "Confirmed"
+msgstr ""
+
+#: includes/config/BOOKING_STATUSES.php:41
+msgctxt "Booking status"
+msgid "Pending payment"
+msgstr ""
+
+#: includes/config/BOOKING_STATUSES.php:47
+msgctxt "Booking status"
+msgid "Escrow paid"
+msgstr ""
+
+#: includes/config/BOOKING_STATUSES.php:53
+msgctxt "Booking status"
+msgid "Paid in full"
+msgstr ""
+
+#: includes/config/BOOKING_STATUSES.php:59
+msgctxt "Booking status"
+msgid "Completed"
+msgstr ""
+
+#: includes/config/BOOKING_STATUSES.php:65
+msgctxt "Booking status"
+msgid "Cancelled"
+msgstr ""
+
+#: includes/config/BOOKING_STATUSES.php:71
+msgctxt "Booking status"
+msgid "Refunded"
+msgstr ""
+
+#: includes/config/BOOKING_STATUSES.php:77
+msgctxt "Booking status"
+msgid "Archived"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:14
+msgid "Opening hour"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:15
+msgid "Earliest time that an event can be booked."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:28
+msgid "Closing hour"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:29
+msgid "Time after which events can't be booked."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:42
+msgid "Weekend"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:43
+msgid "Show Saturday and Sunday in the calendar week view."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:51
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Step"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:52
+msgid "Determines the selectable time increments in minutes."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:65
+msgid "Space"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:66
+msgid "Amount of minutes that should be left between consecutive events."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:79
+msgid "Height"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:80
+msgid "Calendar's height in pixels."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:93
+msgid "Mobile"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:94
+msgid "Available width required for the calendar to display a whole week instead of a single day."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:107
+msgid "Classes"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:108
+msgid "CSS classes for the calendar's root container element."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:119
+msgid "Product"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:120
+msgid "A WooCommerce product that represents bookings in this calendar."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:128
+msgid "Product price"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:129
+msgid "Custom price text for the WooCommerce product associated with the calendar (default: calendar's price per hour)."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:135
+msgid "Override price text..."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:141
+msgid "URL"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:142
+msgid "Link to the page where this calendar is displayed on the front end."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:150
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Price per hour"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:151
+msgid "Price per hour for bookings in this calendar."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:164
+msgid "Currency prefix"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:165
+msgid "Symbol to display before currency."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:173
+msgid "Currency suffix"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:174
+msgid "Symbol to display after currency."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:182
+msgid "Currency singular"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:183
+msgid "Currency spelled out in singular form."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:185
+msgctxt "Default currency singular"
+msgid "euro"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:191
+msgid "Currency plural"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:192
+msgid "Currency spelled out in plural form."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:194
+msgctxt "Default currency plural"
+msgid "euros"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:200
+msgid "Tax"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:201
+msgid "Percentage to subtract from the final price and declare as tax in the invoice."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:214
+msgid "Locale"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:215
+msgid "Locale to use when internationalizing date related text."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:223
+msgid "Timezone"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:224
+msgid "The timezone in which the events in this calendar are booked."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:232
+msgid "Timezone warning"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:233
+msgid "Show a warning message when the browser and calendar timezone is different."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:241
+msgid "Slots"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:242
+msgid "Allow only booking times in predefined slots. You can add slots by creating events of type \"Slot\" in the calendar. Creating a regular \"Event\" and making it \"Bookable\" also counts as a slot."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:250
+#: build/admin.js:1
+msgid "Services"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:251
+msgid "Allow only booking services. Available services can be configured from the \"Services\" page."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:260
+msgid "Future bookings"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:261
+msgid "Prevent booking more than n days in advance. Setting this value to 1 will only allow booking on the current day, 2 will allow booking for today and tomorrow, and so on. Setting this value to 0 will allow booking into any time in the future."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:274
+msgid "Minimum booking duration"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:275
+msgid "Prevent creating bookings shorter than this value (in minutes). When this value is 0 then the \"Calendar -> Step\" setting acts as the minimum booking duration."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:288
+msgid "Maximum booking duration"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:289
+msgid "Prevent creating bookings longer than this value (in minutes). Setting this value to 0 will allow creating a booking of any duration limited by opening and closing hour settings."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:302
+msgid "Notice emails"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:303
+msgid "Admin e-mails to notify when a new booking is made."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:311
+msgid "E-mail header"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:312
+msgid "Content before main text in e-mails."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:320
+msgid "E-mail footer"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:321
+msgid "Footer content for e-mails."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:329
+msgid "Send invoice e-mail"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:330
+msgid "Send an e-mail to the booker when a booking has been successfully created."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:338
+msgid "Invoice e-mail content"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:339
+msgid "E-mail that has a PDF invoice attached."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:347
+msgid "Send confirmation e-mail"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:348
+msgid "Send an e-mail to the booker when booking status is changed to \"Confirmed\"."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:356
+msgid "Confirmation e-mail content"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:357
+msgid "E-mail that is sent when booking status is changed to \"Confirmed\"."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:365
+msgid "Reminder e-mail"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:366
+msgid "How many hours before booking start time to send a reminder e-mail. No reminder is sent when the value is 0, but you can still send reminder e-mails manually."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:379
+msgid "Reminder e-mail content"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:380
+msgid "E-mail that reminds about booking."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:388
+msgid "Debug email"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:389
+msgid "E-mail address to use when client e-mail is set to %s. When you make a test booking then this e-mail will receive the invoice e-mail."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:397
+msgid "PDF invoices"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:398
+msgid "Generate PDF invoices for bookings and attach them to invoice e-mails."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:406
+msgid "Automatic regeneration"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:407
+msgid "Automatically regenerate the PDF invoice when the booking data changes."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:415
+msgid "Automatic deletion"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:416
+msgid "Delete PDF invoices from the filesystem when the associated booking is deleted."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:424
+msgid "Send invoice without payment method"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:425
+msgid "When no payment methods are enabled an \"invoice\" e-mail is still sent confirming that the booking is received. Enable this option to still include the PDF invoice with this e-mail."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:433
+msgid "PDF invoice title"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:434
+msgid "PDF document title displayed in the title bar of a user agent."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:436
+msgid "Company name — Invoice"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:442
+msgid "PDF invoice author"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:443
+msgid "Author of the document, stored in the PDF metadata."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:451
+msgid "PDF invoice header"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:452
+msgid "Big header displayed in the top left corner of the PDF document."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:454
+msgid "Invoice"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:460
+msgid "PDF invoice from"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:461
+msgid "Info about the invoice issuer, displayed in the PDF as \"Invoice from: Your text\"."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:463
+msgid "Company name, account..."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:469
+msgid "PDF invoice content"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:470
+msgid "Additional content for invoice PDF."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:478
+msgid "PDF invoice footer"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA.php:479
+msgid "Footer content for invoice PDF."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA__premium_only.php:9
+msgid "Parent"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA__premium_only.php:10
+msgid "Display events from another calendar in this calendar and vice versa."
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA__premium_only.php:18
+msgid "Multiple coupons"
+msgstr ""
+
+#: includes/config/CALENDAR_SETTINGS_SCHEMA__premium_only.php:19
+msgid "Allow using multiple (comma separated) coupons at once."
+msgstr ""
+
+#: includes/config/DEFAULT_FIELDS.php:16
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "First name"
+msgstr ""
+
+#: includes/config/DEFAULT_FIELDS.php:23
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Last name"
+msgstr ""
+
+#: includes/config/DEFAULT_FIELDS.php:29
+#: includes/config/FIELD_TYPES.php:50
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "E-mail"
+msgstr ""
+
+#: includes/config/DEFAULT_FIELDS.php:36
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Phone"
+msgstr ""
+
+#: includes/config/DEFAULT_FIELDS.php:44
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Additional info"
+msgstr ""
+
+#: includes/config/DEFAULT_FIELDS.php:50
+#: includes/config/FIELD_TYPES.php:56
+msgid "Terms"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:15
+msgid "Calendar ID that the event is in"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:24
+msgid "Event start time"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:35
+msgid "Event start timestamp"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:44
+msgid "Event end time"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:55
+msgid "Event end timestamp"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:64
+msgid "Event creation timestamp"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:73
+msgid "UTC offset of the client"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:82
+msgid "Event type"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:93
+msgid "Service ID that the event was booked for"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:102
+msgid "Booking extras"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:112
+msgid "Coupon used when booking"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:121
+msgid "Booking price"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:130
+msgid "Booking breakdown"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:140
+msgid "Booking payment method"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:149
+msgid "Booking payment type ID"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:158
+msgid "Billing ID, year and event ID combined"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:167
+msgid "Unique identifier for billing"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:176
+msgid "Transaction ID when used with a payment method that supports it"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:185
+msgid "WooCommerce Order ID"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:194
+msgid "URL of the page that the calendar was on at the time of the booking"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:203
+msgid "Whether the e-mail after initial booking has been sent"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:212
+msgid "Whether the e-mail after status changed to \"confirmed\" has been sent"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:221
+msgid "Whether the reminder e-mail has been sent"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:230
+msgid "Booking status"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:240
+msgid "Booking booker first name"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:249
+msgid "Booking booker last name"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:258
+msgid "Booking booker e-mail"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:268
+msgid "Booking booker phone number"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:277
+msgid "Booking additional info"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:286
+msgid "Booking fields"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:296
+msgid "Admin notes for the event"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:305
+msgid "Whether booker has agreed to terms and conditions"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:314
+msgid "Plugin version when event was created"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:323
+msgid "User IP address"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:332
+msgid "User agent"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:341
+msgid "Whether the event is bookable"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:351
+msgid "Holds info about the event booking when `bookable` is true"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:362
+msgid "ID of a bookable event that this booking was created for"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:371
+msgid "ID of a slot that this event was booked on"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:380
+msgid "Whether the event repeats"
+msgstr ""
+
+#: includes/config/EVENT_META_SCHEMA.php:390
+msgid "Holds info about how to repeat the event when `repeat` is true"
+msgstr ""
+
+#: includes/config/EVENT_TYPES.php:8
+msgctxt "Event type"
+msgid "Event"
+msgstr ""
+
+#: includes/config/EVENT_TYPES.php:15
+msgctxt "Event type"
+msgid "New event"
+msgstr ""
+
+#: includes/config/EVENT_TYPES.php:22
+msgctxt "Event type"
+msgid "Booking"
+msgstr ""
+
+#: includes/config/EVENT_TYPES.php:29
+msgctxt "Event type"
+msgid "Slot"
+msgstr ""
+
+#: includes/config/EVENT_TYPES.php:36
+msgctxt "Event type"
+msgid "Unavailable"
+msgstr ""
+
+#: includes/config/EVENT_TYPES.php:43
+msgctxt "Event type"
+msgid "Private"
+msgstr ""
+
+#: includes/config/EVENT_TYPES.php:50
+msgctxt "Event type"
+msgid "Deleted"
+msgstr ""
+
+#: includes/config/FIELD_TYPES.php:8
+msgid "Text"
+msgstr ""
+
+#: includes/config/FIELD_TYPES.php:14
+msgid "Textarea"
+msgstr ""
+
+#: includes/config/FIELD_TYPES.php:20
+msgid "Number"
+msgstr ""
+
+#: includes/config/FIELD_TYPES.php:26
+#: templates/logs.php:18
+msgid "Select"
+msgstr ""
+
+#: includes/config/FIELD_TYPES.php:32
+msgid "Radio"
+msgstr ""
+
+#: includes/config/FIELD_TYPES.php:38
+msgid "Checkbox"
+msgstr ""
+
+#: includes/config/FIELD_TYPES.php:44
+msgid "File"
+msgstr ""
+
+#: includes/config/FIELD_TYPES.php:63
+msgid "Grid"
+msgstr ""
+
+#: includes/core/admin/About.php:64
+#: includes/core/admin/About.php:65
+msgctxt "About page menu item name"
+msgid "About"
+msgstr ""
+
+#: includes/core/admin/About.php:119
+msgid "Plugin version"
+msgstr ""
+
+#: includes/core/admin/About.php:123
+msgid "Upload dir"
+msgstr ""
+
+#: includes/core/admin/About.php:128
+msgid "Logs dir"
+msgstr ""
+
+#: includes/core/admin/About.php:133
+msgid "WordPress version"
+msgstr ""
+
+#: includes/core/admin/About.php:137
+msgid "WooCommerce version"
+msgstr ""
+
+#: includes/core/admin/About.php:141
+msgid "PHP version"
+msgstr ""
+
+#: includes/core/admin/About.php:145
+msgid "PHP NumberFormatter"
+msgstr ""
+
+#: includes/core/admin/About.php:150
+msgid "Server"
+msgstr ""
+
+#: includes/core/admin/About.php:154
+msgid "Default timezone is UTC"
+msgstr ""
+
+#: includes/core/admin/About.php:170
+#: includes/core/booking/Booking.php:320
+#: includes/core/rest/endpoints/Events.php:157
+msgid "Invalid session."
+msgstr ""
+
+#: includes/core/admin/About.php:178
+msgid "Restored calendar."
+msgstr ""
+
+#: includes/core/admin/About.php:180
+msgid "Failed restoring calendar."
+msgstr ""
+
+#: includes/core/admin/About.php:183
+#: includes/core/admin/EventList.php:80
+#: includes/core/booking/Booking.php:242
+#: includes/core/events/EventPostType.php:381
+#: includes/core/Pdf.php:144
+#: includes/core/Pdf.php:237
+#: includes/core/Sanitizer.php:185
+#: includes/core/Shortcode.php:101
+#: includes/integrations/woocommerce/WooCommerce.php:126
+msgid "Calendar not found."
+msgstr ""
+
+#: includes/core/admin/Admin.php:65
+#: includes/core/admin/Admin.php:66
+msgctxt "Plugin admin root menu item"
+msgid "Booking"
+msgstr ""
+
+#: includes/core/admin/Admin.php:75
+#: includes/core/admin/Admin.php:76
+msgctxt "Plugin admin menu item"
+msgid "Calendars"
+msgstr ""
+
+#: includes/core/admin/EventList.php:48
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Calendar"
+msgstr ""
+
+#: includes/core/admin/EventList.php:49
+#: build/admin.js:1
+#: build/blocks.js:1
+#: dev/AddHolidays.js:92
+#: dev/AddHolidays.js:125
+#: dist/blocks.js:1
+msgid "Type"
+msgstr ""
+
+#: includes/core/admin/EventList.php:50
+#: includes/core/booking/Booking.php:690
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dev/AddHolidays.js:124
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Name"
+msgstr ""
+
+#: includes/core/admin/EventList.php:51
+#: includes/core/booking/Booking.php:722
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Status"
+msgstr ""
+
+#: includes/core/admin/EventList.php:52
+#: includes/core/booking/RuleRegistry.php:134
+#: dev/AddHolidays.js:123
+msgctxt "Title (should start with capital letter)"
+msgid "Date"
+msgstr ""
+
+#: includes/core/admin/EventList.php:53
+#: includes/core/booking/Booking.php:770
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Price"
+msgstr ""
+
+#: includes/core/admin/EventList.php:54
+#: templates/about.php:44
+msgid "Actions"
+msgstr ""
+
+#: includes/core/admin/EventList.php:92
+msgid "Apply a filter showing all events from missing calendar"
+msgstr ""
+
+#: includes/core/admin/EventList.php:93
+msgid "Show all"
+msgstr ""
+
+#: includes/core/admin/EventList.php:125
+#: includes/core/booking/Booking.php:761
+msgid "View in admin calendar"
+msgstr ""
+
+#: includes/core/admin/EventList.php:126
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "View"
+msgstr ""
+
+#. translators: %s: post title
+#: includes/core/admin/EventList.php:142
+msgid "Edit &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/core/admin/EventList.php:143
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Edit"
+msgstr ""
+
+#. translators: %s: post title
+#: includes/core/admin/EventList.php:153
+msgid "Restore &#8220;%s&#8221; from the Trash"
+msgstr ""
+
+#: includes/core/admin/EventList.php:154
+msgid "Restore"
+msgstr ""
+
+#. translators: %s: post title
+#: includes/core/admin/EventList.php:161
+msgid "Move &#8220;%s&#8221; to the Trash"
+msgstr ""
+
+#: includes/core/admin/EventList.php:162
+msgctxt "verb"
+msgid "Trash"
+msgstr ""
+
+#: includes/core/admin/EventList.php:178
+msgid "Move to calendar"
+msgstr ""
+
+#: includes/core/admin/EventList.php:244
+msgid "All calendars"
+msgstr ""
+
+#: includes/core/admin/EventList.php:258
+msgid "All types"
+msgstr ""
+
+#: includes/core/admin/EventList.php:275
+msgid "All statuses"
+msgstr ""
+
+#: includes/core/admin/EventList.php:331
+msgid "Select a calendar..."
+msgstr ""
+
+#: includes/core/booking/Booking.php:147
+#: includes/core/booking/Booking.php:696
+msgid "Booking"
+msgstr ""
+
+#: includes/core/booking/Booking.php:148
+msgid "Booking not found."
+msgstr ""
+
+#: includes/core/booking/Booking.php:215
+msgid "Booking contains invalid keys: \"%s\"."
+msgstr ""
+
+#: includes/core/booking/Booking.php:234
+msgid "Calendar not chosen."
+msgstr ""
+
+#: includes/core/booking/Booking.php:263
+msgid "Invalid bookable event ID."
+msgstr ""
+
+#: includes/core/booking/Booking.php:266
+msgid "Bookable event not found."
+msgstr ""
+
+#: includes/core/booking/Booking.php:271
+msgid "Service ID is required."
+msgstr ""
+
+#: includes/core/booking/Booking.php:274
+msgid "Invalid service ID."
+msgstr ""
+
+#: includes/core/booking/Booking.php:294
+msgid "Payment method not selected."
+msgstr ""
+
+#: includes/core/booking/Booking.php:299
+#: includes/core/events/EventPostType.php:409
+msgid "Invalid payment type."
+msgstr ""
+
+#: includes/core/booking/Booking.php:316
+#: includes/core/calendars/Calendar.php:784
+#: includes/core/rest/endpoints/Events.php:151
+msgid "No nonce."
+msgstr ""
+
+#: includes/core/booking/Booking.php:392
+msgid "Unsanitary input: \"%s\"."
+msgstr ""
+
+#: includes/core/booking/Booking.php:412
+msgid "This calendar does not contain a submitted field \"%s\"."
+msgstr ""
+
+#: includes/core/booking/Booking.php:419
+msgid "Submitted field \"%s\" is disabled."
+msgstr ""
+
+#: includes/core/booking/Booking.php:489
+msgid "This calendar does not contain a chosen extra."
+msgstr ""
+
+#: includes/core/booking/Booking.php:493
+msgid "This booking contains an extra that is disabled."
+msgstr ""
+
+#: includes/core/booking/Booking.php:522
+msgctxt "Error: submitted price - calculated price is different"
+msgid "Price mismatch (%1$g - %2$g)."
+msgstr ""
+
+#: includes/core/booking/Booking.php:535
+msgid "Breakdown mismatch."
+msgstr ""
+
+#: includes/core/booking/Booking.php:588
+msgid "Booking could not be added to cart."
+msgstr ""
+
+#: includes/core/booking/Booking.php:598
+msgctxt "New booking admin notification e-mail title (formatted date)"
+msgid "New booking: %s"
+msgstr ""
+
+#: includes/core/booking/Booking.php:605
+msgid "Booked"
+msgstr ""
+
+#: includes/core/booking/Booking.php:606
+msgid "Your chosen time has been booked."
+msgstr ""
+
+#: includes/core/booking/Booking.php:650
+msgctxt "Booking confirmation e-mail title"
+msgid "Booking received"
+msgstr ""
+
+#: includes/core/booking/Booking.php:657
+msgid "Failed to send a confirmation with an invoice to your e-mail, please open it from %1$shere%2$s."
+msgstr ""
+
+#: includes/core/booking/Booking.php:658
+msgid "Failed to send a confirmation to your e-mail, but your booking is received."
+msgstr ""
+
+#: includes/core/booking/Booking.php:660
+msgctxt "Booking received confirmation e-mail failed to send notice title"
+msgid "Confirmation"
+msgstr ""
+
+#: includes/core/booking/Booking.php:702
+#: includes/core/events/Event.php:443
+#: includes/integrations/woocommerce/WooCommerce.php:201
+#: includes/integrations/woocommerce/WooCommerce.php:242
+#: includes/integrations/woocommerce/WooCommerce.php:262
+#: includes/integrations/woocommerce/WooCommerce.php:297
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Event"
+msgstr ""
+
+#: includes/core/booking/Booking.php:709
+#: includes/core/booking/RuleRegistry.php:287
+#: includes/integrations/woocommerce/WooCommerce.php:207
+#: includes/integrations/woocommerce/WooCommerce.php:305
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Service"
+msgstr ""
+
+#: includes/core/booking/Booking.php:716
+#: includes/integrations/woocommerce/WooCommerce.php:213
+#: includes/integrations/woocommerce/WooCommerce.php:313
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Slot"
+msgstr ""
+
+#: includes/core/booking/Booking.php:727
+msgid "Starts in"
+msgstr ""
+
+#: includes/core/booking/Booking.php:733
+msgid "Admin link"
+msgstr ""
+
+#: includes/core/booking/Booking.php:768
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Start"
+msgstr ""
+
+#: includes/core/booking/Booking.php:769
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "End"
+msgstr ""
+
+#: includes/core/booking/Booking.php:771
+msgid "Breakdown"
+msgstr ""
+
+#: includes/core/booking/Booking.php:772
+#: includes/integrations/woocommerce/WooCommerce.php:219
+#: includes/integrations/woocommerce/WooCommerce.php:321
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Extras"
+msgstr ""
+
+#: includes/core/booking/Booking.php:773
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Payment"
+msgstr ""
+
+#: includes/core/booking/Booking.php:863
+msgid "Booking errors"
+msgstr ""
+
+#: includes/core/booking/Extra.php:40
+msgctxt "Untitled extra's name"
+msgid "Extra"
+msgstr ""
+
+#: includes/core/booking/Field.php:197
+msgid "Field \"%s\" is required."
+msgstr ""
+
+#: includes/core/booking/Field.php:204
+msgid "Invalid value \"%1$s\" for field \"%2$s\"."
+msgstr ""
+
+#: includes/core/booking/Field.php:226
+msgid "\"%s\" must be a numeric value."
+msgstr ""
+
+#: includes/core/booking/Field.php:236
+msgid "You must agree to terms and conditions."
+msgstr ""
+
+#: includes/core/booking/Field.php:259
+msgid "\"%1$s\" must equal or greater than %2$d."
+msgstr ""
+
+#: includes/core/booking/Field.php:267
+msgid "\"%1$s\" must equal or less than %2$d."
+msgstr ""
+
+#: includes/core/booking/Field.php:295
+#: includes/core/booking/Field.php:339
+#: includes/core/booking/Field.php:364
+#: includes/core/booking/Field.php:425
+#: includes/core/booking/Field.php:435
+#: includes/core/booking/Field.php:453
+msgid "File upload error (%1$s) for \"%2$s\"."
+msgstr ""
+
+#: includes/core/booking/Field.php:315
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Yes"
+msgstr ""
+
+#: includes/core/booking/Field.php:315
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "No"
+msgstr ""
+
+#: includes/core/booking/Field.php:366
+msgid "mime type \"%s\" is not allowed"
+msgstr ""
+
+#: includes/core/booking/Field.php:391
+msgid "Uploaded file for \"%1$s\" exceeds maximum allowed file size of %2$dMB."
+msgstr ""
+
+#: includes/core/booking/Payment.php:162
+msgctxt "Invoice e-mail title"
+msgid "Booking invoice"
+msgstr ""
+
+#: includes/core/booking/Payment.php:203
+msgid "Payment errors"
+msgstr ""
+
+#: includes/core/booking/paymentmethods/BankTransfer.php:19
+msgctxt "Payment method name"
+msgid "Bank transfer"
+msgstr ""
+
+#: includes/core/booking/paymentmethods/BankTransfer.php:24
+msgid "Manual payment by the client"
+msgstr ""
+
+#: includes/core/booking/paymentmethods/BankTransfer.php:30
+msgid "An invoice has been attached to this e-mail."
+msgstr ""
+
+#: includes/core/booking/paymentmethods/BankTransfer.php:31
+msgid "An invoice for %3$s of the total amount has been attached to this e-mail."
+msgstr ""
+
+#: includes/core/booking/paymentmethods/BankTransfer.php:47
+msgctxt "Bank transfer: Payment message content."
+msgid "%1$sInvoice%2$s has been sent to your e-mail."
+msgstr ""
+
+#: includes/core/booking/paymentmethods/BankTransfer.php:48
+msgctxt "Bank transfer: Payment message content."
+msgid "Failed to send invoice to your e-mail, please open it from %1$shere%2$s."
+msgstr ""
+
+#: includes/core/booking/paymentmethods/BankTransfer.php:51
+#: includes/core/booking/paymentmethods/OnSite.php:58
+msgctxt "Payment notice header"
+msgid "Payment"
+msgstr ""
+
+#: includes/core/booking/paymentmethods/OnSite.php:19
+msgctxt "Payment method name"
+msgid "On-site"
+msgstr ""
+
+#: includes/core/booking/paymentmethods/OnSite.php:24
+msgid "On-site payment by the client"
+msgstr ""
+
+#: includes/core/booking/paymentmethods/OnSite.php:30
+msgid "An invoice has been attached to this e-mail. You can pay for it on-site."
+msgstr ""
+
+#: includes/core/booking/paymentmethods/OnSite.php:31
+msgid "An invoice for %3$s of the total amount has been attached to this e-mail. You can pay for it on-site."
+msgstr ""
+
+#: includes/core/booking/paymentmethods/OnSite.php:54
+msgctxt "On-site: Payment message content."
+msgid "%1$sInvoice%2$s has been sent to your e-mail."
+msgstr ""
+
+#: includes/core/booking/paymentmethods/OnSite.php:55
+msgctxt "On-site: Payment message content."
+msgid "Failed to send invoice to your e-mail, please open it from %1$shere%2$s."
+msgstr ""
+
+#: includes/core/booking/paymentmethods/PayPal.php:29
+#: includes/core/booking/paymentmethods/PayPal.php:243
+msgctxt "Payment method name"
+msgid "PayPal"
+msgstr ""
+
+#: includes/core/booking/paymentmethods/PayPal.php:34
+#: includes/core/booking/paymentmethods/PayPal.php:117
+msgid "Pay with PayPal"
+msgstr ""
+
+#: includes/core/booking/paymentmethods/PayPal.php:38
+msgid "Client ID"
+msgstr ""
+
+#: includes/core/booking/paymentmethods/PayPal.php:39
+#: includes/core/booking/paymentmethods/PayPal.php:47
+msgid "Available from PayPal developer dashboard."
+msgstr ""
+
+#: includes/core/booking/paymentmethods/PayPal.php:46
+msgid "Client secret"
+msgstr ""
+
+#: includes/core/booking/paymentmethods/PayPal.php:54
+#: includes/core/booking/paymentmethods/Stripe.php:58
+msgid "Currency code"
+msgstr ""
+
+#: includes/core/booking/paymentmethods/PayPal.php:55
+#: includes/core/booking/paymentmethods/Stripe.php:59
+msgid "Three-letter ISO code for the currency with which to perform the payment."
+msgstr ""
+
+#: includes/core/booking/paymentmethods/PayPal.php:62
+#: includes/core/booking/paymentmethods/Stripe.php:66
+msgid "Sandbox"
+msgstr ""
+
+#: includes/core/booking/paymentmethods/PayPal.php:63
+#: includes/core/booking/paymentmethods/Stripe.php:67
+msgid "Enable to perform the payments in a test environment."
+msgstr ""
+
+#: includes/core/booking/paymentmethods/PayPal.php:74
+msgid "You can pay for your booking by using the PayPal link %1$shere%2$s."
+msgstr ""
+
+#: includes/core/booking/paymentmethods/PayPal.php:75
+msgid "You can pay %3$s of the total amount in advance for your booking by using the Paypal link %1$shere%2$s."
+msgstr ""
+
+#: includes/core/booking/paymentmethods/PayPal.php:119
+msgid "%1$sClick here to pay with PayPal.%2$s"
+msgstr ""
+
+#: includes/core/booking/paymentmethods/PayPal.php:147
+#: includes/core/booking/paymentmethods/PayPal.php:188
+#: includes/core/booking/paymentmethods/Stripe.php:158
+#: includes/core/booking/paymentmethods/Stripe.php:204
+msgid "Couldn't find the booking you paid for."
+msgstr ""
+
+#: includes/core/booking/paymentmethods/PayPal.php:155
+#: includes/core/booking/paymentmethods/Stripe.php:166
+msgid "Booking is no longer pending payment."
+msgstr ""
+
+#: includes/core/booking/paymentmethods/PayPal.php:179
+#: includes/core/booking/paymentmethods/Stripe.php:194
+msgid "Transaction completed"
+msgstr ""
+
+#: includes/core/booking/paymentmethods/PayPal.php:180
+#: includes/core/booking/paymentmethods/Stripe.php:195
+msgid "Thank you for your payment."
+msgstr ""
+
+#: includes/core/booking/paymentmethods/PayPal.php:213
+#: includes/core/booking/paymentmethods/Stripe.php:217
+msgid "Couldn't find an event with the transaction ID: %s."
+msgstr ""
+
+#: includes/core/booking/paymentmethods/PayPal.php:244
+#: includes/core/booking/paymentmethods/Stripe.php:242
+msgid "Using sandbox environment, payments are not real."
+msgstr ""
+
+#: includes/core/booking/paymentmethods/Stripe.php:33
+msgctxt "Payment method name"
+msgid "Stripe"
+msgstr ""
+
+#: includes/core/booking/paymentmethods/Stripe.php:38
+#: includes/core/booking/paymentmethods/Stripe.php:135
+msgid "Pay with Stripe"
+msgstr ""
+
+#: includes/core/booking/paymentmethods/Stripe.php:42
+msgid "API secret key"
+msgstr ""
+
+#: includes/core/booking/paymentmethods/Stripe.php:43
+msgid "Available from Stripe dashboard."
+msgstr ""
+
+#: includes/core/booking/paymentmethods/Stripe.php:50
+msgid "Test API secret key"
+msgstr ""
+
+#: includes/core/booking/paymentmethods/Stripe.php:51
+msgid "Used when Sandbox mode is enabled."
+msgstr ""
+
+#: includes/core/booking/paymentmethods/Stripe.php:78
+msgid "You can pay for your booking by using the Stripe link %1$shere%2$s."
+msgstr ""
+
+#: includes/core/booking/paymentmethods/Stripe.php:79
+msgid "You can pay %3$s of the total amount in advance for your booking by using the Stripe link %1$shere%2$s."
+msgstr ""
+
+#: includes/core/booking/paymentmethods/Stripe.php:137
+msgid "%1$sClick here to pay with Stripe.%2$s"
+msgstr ""
+
+#: includes/core/booking/paymentmethods/Stripe.php:261
+msgid "There was an error with the payment processor."
+msgstr ""
+
+#: includes/core/booking/PriceCalculator.php:325
+msgid "Applied coupon: %s."
+msgid_plural "Applied coupons: %s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/core/booking/PriceCalculator.php:334
+msgid "Invalid coupon: %s."
+msgid_plural "Invalid coupons: %s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/core/booking/PriceCalculator.php:420
+msgid "Only one coupon can be used at a time."
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:29
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Week days"
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:30
+msgid "Applies a modifier on selected week days."
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:55
+#: build/admin.js:1
+msgid "Time range"
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:56
+msgid "Applies a modifier when the booking is created for a certain time window."
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:60
+#: includes/core/booking/RuleRegistry.php:108
+msgid "Start time"
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:64
+#: includes/core/booking/RuleRegistry.php:112
+msgid "End time"
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:79
+msgid "Date range"
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:80
+msgid "Applies a modifier when the booking is created for a certain date window."
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:84
+#: includes/core/booking/RuleRegistry.php:104
+msgid "From - To"
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:99
+msgid "Datetime range"
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:100
+msgid "Applies a modifier when the booking is created for a certain date window for a certain time."
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:135
+msgid "Applies a modifier when the booking is created for a specific date."
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:139
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Date"
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:151
+#: includes/core/booking/RuleRegistry.php:156
+msgid "Repeat date"
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:152
+msgid "Applies a modifier when the booking is created for a specific date, any year."
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:173
+#: build/admin.js:1
+msgid "Coupon"
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:174
+msgid "Applies a modifier when a valid coupon is inserted."
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:178
+msgid "Coupon code"
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:183
+msgid "Valid From - To"
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:184
+msgid "Coupon can be used between this time."
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:188
+msgid "Valid for"
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:189
+msgid "Coupon can be used when booking an event that takes place between this time."
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:209
+msgid "Coupon %1$s is only valid during %2$s."
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:229
+msgid "Coupon %1$s is only valid for bookings between %2$s."
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:245
+msgid "Threshold"
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:246
+msgid "Applies a modifier when the duration of the booking surpasses a specified amount."
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:250
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Duration"
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:263
+msgid "Duration between"
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:264
+msgid "Applies a modifier when the total duration of the booking is between the specified values."
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:268
+msgid "Min duration"
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:272
+msgid "Max duration"
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:288
+msgid "Applies a modifier when the booking is for a specified service."
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:319
+msgid "Extra"
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:320
+msgid "Applies a modifier when the booking has a specific extra selected."
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:347
+msgid "Group"
+msgstr ""
+
+#: includes/core/booking/RuleRegistry.php:348
+msgid "Allows to use multiple rules and apply a price modification when any or all of the rules match."
+msgstr ""
+
+#: includes/core/calendars/Calendar.php:625
+#: build/admin.js:1
+#: dist/admin.js:1
+msgctxt "Default payment type name"
+msgid "Default"
+msgstr ""
+
+#: includes/core/calendars/Calendar.php:766
+msgid "Invalid event."
+msgstr ""
+
+#: includes/core/calendars/Calendar.php:769
+msgid "Event start or end time was not found."
+msgstr ""
+
+#: includes/core/calendars/Calendar.php:778
+msgid "Calendar mismatch."
+msgstr ""
+
+#: includes/core/calendars/Calendar.php:831
+msgid "Invalid response when adding event."
+msgstr ""
+
+#: includes/core/calendars/Calendar.php:1108
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Manage calendar"
+msgstr ""
+
+#: includes/core/Cron.php:63
+msgid "Every 30 minutes"
+msgstr ""
+
+#: includes/core/Email.php:88
+msgid "Debug"
+msgstr ""
+
+#: includes/core/Email.php:194
+msgctxt "Reminder e-mail title"
+msgid "Booking reminder"
+msgstr ""
+
+#: includes/core/Email.php:236
+msgctxt "Status e-mail title"
+msgid "Booking status update"
+msgstr ""
+
+#: includes/core/events/Event.php:115
+msgctxt "Booked event in WC cart, checkout not yet completed"
+msgid "Reserved"
+msgstr ""
+
+#: includes/core/events/Event.php:117
+msgctxt "Booked event public title"
+msgid "Booked"
+msgstr ""
+
+#: includes/core/events/Event.php:119
+#: includes/core/events/Event.php:475
+#: includes/core/events/Event.php:486
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgctxt "Slot event public title"
+msgid "Slot"
+msgstr ""
+
+#: includes/core/events/Event.php:126
+msgctxt "Unavailable event public title"
+msgid "Unavailable"
+msgstr ""
+
+#: includes/core/events/Event.php:601
+msgid "Started"
+msgstr ""
+
+#: includes/core/events/Event.php:686
+msgctxt "Booking date formatted - date, start time, end time"
+msgid "%1$s, %2$s - %3$s"
+msgstr ""
+
+#: includes/core/events/Event.php:739
+msgctxt "Payment type"
+msgid "Unknown"
+msgstr ""
+
+#: includes/core/events/Event.php:995
+msgctxt "Unknown extra name"
+msgid "Unknown"
+msgstr ""
+
+#: includes/core/events/Event.php:1021
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgctxt "Minutes"
+msgid "min"
+msgstr ""
+
+#: includes/core/events/Event.php:1024
+msgctxt "Units"
+msgid "pcs"
+msgstr ""
+
+#: includes/core/events/Event.php:1243
+msgctxt "Spelled out currency"
+msgid "cents"
+msgstr ""
+
+#: includes/core/events/Event.php:1272
+msgctxt "Event action"
+msgid "Confirm"
+msgstr ""
+
+#: includes/core/events/Event.php:1330
+msgid "WooCommerce is not enabled."
+msgstr ""
+
+#: includes/core/events/Event.php:1333
+msgid "Order not found."
+msgstr ""
+
+#: includes/core/events/Event.php:1336
+msgid "Product not found."
+msgstr ""
+
+#: includes/core/events/Event.php:1349
+msgid "Failed adding order item."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:90
+msgid "Booking Weir events."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:92
+#: includes/core/events/EventPostType.php:94
+#: includes/core/events/EventPostType.php:104
+msgctxt "Event post type"
+msgid "Events"
+msgstr ""
+
+#: includes/core/events/EventPostType.php:93
+#: includes/core/events/EventPostType.php:95
+msgctxt "Event post type"
+msgid "Event"
+msgstr ""
+
+#: includes/core/events/EventPostType.php:96
+msgctxt "Event post type"
+msgid "Add New"
+msgstr ""
+
+#: includes/core/events/EventPostType.php:97
+msgctxt "Event post type"
+msgid "Add New Event"
+msgstr ""
+
+#: includes/core/events/EventPostType.php:98
+msgctxt "Event post type"
+msgid "Edit Event"
+msgstr ""
+
+#: includes/core/events/EventPostType.php:99
+msgctxt "Event post type"
+msgid "New Event"
+msgstr ""
+
+#: includes/core/events/EventPostType.php:100
+msgctxt "Event post type"
+msgid "View Event"
+msgstr ""
+
+#: includes/core/events/EventPostType.php:101
+msgctxt "Event post type"
+msgid "Search Events"
+msgstr ""
+
+#: includes/core/events/EventPostType.php:102
+msgctxt "Event post type"
+msgid "No Events found"
+msgstr ""
+
+#: includes/core/events/EventPostType.php:103
+msgctxt "Event post type"
+msgid "No Events found in trash"
+msgstr ""
+
+#: includes/core/events/EventPostType.php:105
+msgctxt "Event post type"
+msgid "Event Image"
+msgstr ""
+
+#: includes/core/events/EventPostType.php:106
+msgctxt "Event post type"
+msgid "Set Event image"
+msgstr ""
+
+#: includes/core/events/EventPostType.php:107
+msgctxt "Event post type"
+msgid "Remove Event image"
+msgstr ""
+
+#: includes/core/events/EventPostType.php:108
+msgctxt "Event post type"
+msgid "Use as Event image"
+msgstr ""
+
+#: includes/core/events/EventPostType.php:109
+msgctxt "Event post type"
+msgid "Insert into Event"
+msgstr ""
+
+#: includes/core/events/EventPostType.php:110
+msgctxt "Event post type"
+msgid "Uploaded to this Event"
+msgstr ""
+
+#: includes/core/events/EventPostType.php:111
+msgctxt "Event post type"
+msgid "Filter Events list"
+msgstr ""
+
+#: includes/core/events/EventPostType.php:112
+msgctxt "Event post type"
+msgid "Events list navigation"
+msgstr ""
+
+#: includes/core/events/EventPostType.php:113
+msgctxt "Event post type"
+msgid "Events list"
+msgstr ""
+
+#: includes/core/events/EventPostType.php:174
+msgid "Invalid value for event meta: %s."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:187
+msgid "Sanitize callback is required for: %s."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:207
+msgid "Failed updating event meta: %s."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:329
+#: includes/core/events/EventPostType.php:823
+#: includes/core/Pdf.php:141
+#: includes/core/Pdf.php:231
+#: includes/core/Sanitizer.php:203
+msgid "Event not found."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:366
+#: includes/core/rest/endpoints/Events.php:154
+msgid "Calendar ID missing."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:369
+msgid "Start time missing."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:375
+msgid "End time missing."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:385
+msgid "UTC offset missing."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:388
+msgid "UTC offset mismatch: %1$d - %2$d."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:396
+msgctxt "Event type=\"booking\" name"
+msgid "Booking"
+msgstr ""
+
+#: includes/core/events/EventPostType.php:404
+msgid "Invalid initial event status."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:414
+msgid "Invalid payment method."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:434
+msgid "Start and end times are equal."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:437
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Start time is later than end time."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:440
+msgid "Event duration can not be longer than a day."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:476
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Start time is earlier than current time."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:480
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Start time is earlier than opening hours."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:484
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "End time is later than closing hours."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:497
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Duration is shorter than minimum."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:511
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Bookings must be at least %s minutes long."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:520
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Bookings must not be longer than %s minutes."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:531
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Booking is only allowed less than %s in advance."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:532
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "day"
+msgid_plural "days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/core/events/EventPostType.php:547
+msgid "Booking for this service must be %d minutes long."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:575
+msgid "Event has reached capacity."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:587
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Overlapping with another event."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:617
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Please leave at least %s minutes after the previous event."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:625
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Please leave at least %s minutes before the next event."
+msgstr ""
+
+#: includes/core/events/EventPostType.php:833
+msgid "Invalid action."
+msgstr ""
+
+#: includes/core/Logger.php:112
+#: includes/core/Logger.php:113
+msgctxt "Plugin admin menu item"
+msgid "Logs"
+msgstr ""
+
+#: includes/core/Pdf.php:58
+msgid "Failed to initialize WP Filesystem."
+msgstr ""
+
+#: includes/core/Pdf.php:62
+msgid "Unable to retrieve upload dir."
+msgstr ""
+
+#: includes/core/Pdf.php:65
+msgid "Unable to retrieve upload URL."
+msgstr ""
+
+#: includes/core/Pdf.php:71
+msgid "Unable to create PDF output dir."
+msgstr ""
+
+#: includes/core/Pdf.php:74
+msgid "PDF output dir not writable."
+msgstr ""
+
+#: includes/core/Pdf.php:130
+#: includes/core/Pdf.php:209
+msgid "Generated file doesn't exist."
+msgstr ""
+
+#: includes/core/Pdf.php:147
+msgid "PDF generation is not enabled."
+msgstr ""
+
+#: includes/core/Pdf.php:150
+msgid "Billing is handled by WooCommerce."
+msgstr ""
+
+#: includes/core/Pdf.php:153
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Event is archived."
+msgstr ""
+
+#: includes/core/Pdf.php:159
+msgid "Invalid settings."
+msgstr ""
+
+#: includes/core/Pdf.php:224
+msgid "Expected post type \"%1$s\", got \"%2$s\"."
+msgstr ""
+
+#: includes/core/Pdf.php:234
+msgid "Event is not a booking."
+msgstr ""
+
+#: includes/core/Pdf.php:240
+msgid "PDF deletion is not enabled."
+msgstr ""
+
+#: includes/core/Pdf.php:243
+msgid "Unable to retrieve invoice path."
+msgstr ""
+
+#: includes/core/Pdf.php:249
+msgid "File validation failed."
+msgstr ""
+
+#: includes/core/Pdf.php:252
+msgid "File is not a PDF."
+msgstr ""
+
+#: includes/core/Pdf.php:261
+msgid "Failed deleting invoice."
+msgstr ""
+
+#: includes/core/rest/Endpoint.php:77
+msgid "Request failed."
+msgstr ""
+
+#: includes/core/rest/endpoints/Calendars.php:60
+msgid "Invalid calendars."
+msgstr ""
+
+#: includes/core/rest/endpoints/Calendars.php:81
+msgid "Failed updating calendars."
+msgstr ""
+
+#: includes/core/rest/endpoints/Email.php:76
+msgid "Event doesn't have an e-mail specified."
+msgstr ""
+
+#: includes/core/rest/endpoints/Email.php:81
+msgid "Failed sending invoice e-mail, check that your server is correctly configured for using the PHP mail() function."
+msgstr ""
+
+#: includes/core/rest/endpoints/Email.php:96
+msgid "Failed sending reminder e-mail, check that your server is correctly configured for using the PHP mail() function."
+msgstr ""
+
+#: includes/core/rest/endpoints/Event.php:119
+msgid "File not found."
+msgstr ""
+
+#: includes/core/rest/endpoints/Event.php:122
+msgid "Failed deleting file."
+msgstr ""
+
+#: includes/core/rest/endpoints/Events.php:138
+msgid "User not elevated."
+msgstr ""
+
+#: includes/core/rest/endpoints/Payment.php:44
+msgid "Error retrieving transaction."
+msgstr ""
+
+#: includes/core/rest/endpoints/Pdf.php:87
+msgid "Failed generating PDF."
+msgstr ""
+
+#: includes/core/rest/endpoints/Pdf.php:105
+msgid "Failed deleting PDF."
+msgstr ""
+
+#: includes/core/Sanitizer.php:58
+msgid "Invalid calendar ID: \"%s\"."
+msgstr ""
+
+#: includes/core/Sanitizer.php:68
+msgid "Invalid calendar key: \"%s\"."
+msgstr ""
+
+#: includes/core/Sanitizer.php:94
+msgid "Invalid datetime: \"%s\"."
+msgstr ""
+
+#: includes/core/Sanitizer.php:126
+msgid "Invalid date: \"%s\"."
+msgstr ""
+
+#: includes/core/Sanitizer.php:155
+msgid "Invalid price: \"%s\"."
+msgstr ""
+
+#: includes/core/Sanitizer.php:285
+msgid "E-mail \"%s\" is not valid."
+msgstr ""
+
+#: includes/core/Sanitizer.php:313
+msgid "File \"%s\" is not valid."
+msgstr ""
+
+#: includes/core/Sanitizer.php:333
+msgid "Invalid event type: \"%s\"."
+msgstr ""
+
+#: includes/core/Sanitizer.php:376
+msgid "Invalid booking status: \"%s\"."
+msgstr ""
+
+#: includes/core/Sanitizer.php:408
+msgid "Invalid extras."
+msgstr ""
+
+#: includes/core/Sanitizer.php:412
+msgid "Invalid extra ID type: \"%s\"."
+msgstr ""
+
+#: includes/core/Sanitizer.php:415
+msgid "Invalid extra value type: \"%s\"."
+msgstr ""
+
+#: includes/core/Sanitizer.php:451
+msgid "Invalid fields."
+msgstr ""
+
+#: includes/core/Sanitizer.php:455
+msgid "Invalid field ID type: \"%s\"."
+msgstr ""
+
+#: includes/core/Sanitizer.php:458
+msgid "Invalid field value type: \"%s\"."
+msgstr ""
+
+#: includes/core/Sanitizer.php:493
+msgid "Invalid breakdown."
+msgstr ""
+
+#: includes/core/Sanitizer.php:497
+msgid "Invalid breakdown title type: \"%s\"."
+msgstr ""
+
+#: includes/core/Sanitizer.php:500
+msgid "Invalid value for breakdown: \"%s\"."
+msgstr ""
+
+#: includes/core/Sanitizer.php:524
+msgid "Invalid booking value."
+msgstr ""
+
+#: includes/core/Sanitizer.php:529
+#: includes/core/Sanitizer.php:573
+msgid "Repeater contains invalid keys."
+msgstr ""
+
+#: includes/core/Sanitizer.php:535
+msgid "Invalid booking value for: \"%s\"."
+msgstr ""
+
+#: includes/core/Sanitizer.php:568
+msgid "Invalid repeater value."
+msgstr ""
+
+#: includes/core/Sanitizer.php:578
+#: includes/core/Sanitizer.php:597
+#: includes/core/Sanitizer.php:609
+#: includes/core/Sanitizer.php:614
+#: includes/core/Sanitizer.php:619
+msgid "Invalid repeater value for: \"%s\"."
+msgstr ""
+
+#: includes/core/Sanitizer.php:590
+msgid "Invalid day value for repeater."
+msgstr ""
+
+#: includes/core/Shortcode.php:93
+msgid "No calendar ID specified in the `id` attribute."
+msgstr ""
+
+#: includes/core/Shortcode.php:103
+#: includes/core/Shortcode.php:110
+#: includes/core/Shortcode.php:119
+#: includes/core/Shortcode.php:125
+#: includes/integrations/woocommerce/WooCommerce.php:128
+msgid "Booking unavailable."
+msgstr ""
+
+#: includes/core/Shortcode.php:108
+msgid "Please activate WooCommerce or remove this calendar's association with a WooCommerce product."
+msgstr ""
+
+#: includes/core/Shortcode.php:117
+msgid "Product associated with the calendar was not found."
+msgstr ""
+
+#: includes/core/Shortcode.php:123
+msgid "Product associated with the calendar is not a \"Booking product\". Please change the product type."
+msgstr ""
+
+#: includes/core/Shortcode.php:128
+msgid "%1$sView booking product%2$s"
+msgstr ""
+
+#: includes/integrations/woocommerce/Product.php:109
+msgctxt "Booking product price."
+msgid "%s/hour"
+msgstr ""
+
+#: includes/integrations/woocommerce/Product.php:124
+msgid "Choose a time"
+msgstr ""
+
+#: includes/integrations/woocommerce/Product.php:133
+msgctxt "Booking product add to cart text."
+msgid "Book"
+msgstr ""
+
+#: includes/integrations/woocommerce/WooCommerce.php:70
+msgctxt "WooCommerce product type name"
+msgid "Booking product"
+msgstr ""
+
+#: includes/integrations/woocommerce/WooCommerce.php:114
+#: tests/phpunit/integration/integrations/woocommerce/WooCommerceTest.php:54
+msgctxt "Booking product calendar tab title."
+msgid "Booking"
+msgstr ""
+
+#: includes/integrations/woocommerce/WooCommerce.php:183
+msgid "An expired booking was removed from the cart."
+msgstr ""
+
+#: includes/integrations/woocommerce/WooCommerce.php:243
+msgid "Deleted"
+msgstr ""
+
+#: includes/integrations/woocommerce/WooCommerce.php:267
+msgid "Click \"%s\" to apply event price."
+msgstr ""
+
+#: includes/Plugin.php:221
+#: build/admin.js:1
+#: dist/admin.js:1
+msgctxt "White label plugin name"
+msgid "Booking"
+msgstr ""
+
+#: includes/Plugin.php:226
+msgctxt "White label plugin description"
+msgid "Booking plugin."
+msgstr ""
+
+#: templates/about.php:11
+msgid "About"
+msgstr ""
+
+#: templates/about.php:34
+msgid "History"
+msgstr ""
+
+#: templates/about.php:36
+msgid "Restore an older version of calendars configuration."
+msgstr ""
+
+#: templates/about.php:42
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Time"
+msgstr ""
+
+#: templates/about.php:43
+msgid "Calendars"
+msgstr ""
+
+#: templates/about.php:54
+msgid "Roll back"
+msgstr ""
+
+#: templates/invoice.php:77
+msgctxt "PDF invoice"
+msgid "Invoice number"
+msgstr ""
+
+#: templates/invoice.php:105
+msgctxt "PDF invoice"
+msgid "Invoice number:"
+msgstr ""
+
+#: templates/invoice.php:111
+msgctxt "PDF invoice"
+msgid "Invoice date:"
+msgstr ""
+
+#: templates/invoice.php:116
+msgctxt "PDF invoice"
+msgid "Due date:"
+msgstr ""
+
+#: templates/invoice.php:121
+msgctxt "PDF invoice"
+msgid "Invoice from:"
+msgstr ""
+
+#: templates/invoice.php:128
+msgctxt "PDF invoice"
+msgid "Invoice to: %s"
+msgstr ""
+
+#: templates/invoice.php:136
+msgctxt "PDF invoice"
+msgid "Product/service"
+msgstr ""
+
+#: templates/invoice.php:137
+msgctxt "PDF invoice"
+msgid "Amount"
+msgstr ""
+
+#: templates/invoice.php:138
+msgctxt "PDF invoice"
+msgid "Price"
+msgstr ""
+
+#: templates/invoice.php:139
+msgctxt "PDF invoice"
+msgid "Total"
+msgstr ""
+
+#: templates/invoice.php:145
+msgctxt "PDF invoice"
+msgid "Booking"
+msgstr ""
+
+#: templates/invoice.php:158
+msgctxt "PDF invoice"
+msgid "Subtotal:"
+msgstr ""
+
+#: templates/invoice.php:164
+msgctxt "PDF invoice"
+msgid "Tax:"
+msgstr ""
+
+#: templates/invoice.php:174
+msgctxt "PDF invoice"
+msgid "Total:"
+msgstr ""
+
+#: templates/invoice.php:182
+msgctxt "PDF invoice"
+msgid "Amount spelled out: %s"
+msgstr ""
+
+#: templates/logs.php:14
+msgid "Logs"
+msgstr ""
+
+#: templates/logs.php:34
+msgid "Logging is not enabled by default"
+msgstr ""
+
+#: templates/logs.php:37
+msgid "To enable logging add %1$s to your %2$s file."
+msgstr ""
+
+#: templates/logs.php:42
+msgid "Logs may contain personal data so you need to ensure the logs directory is not publicly accessible."
+msgstr ""
+
+#: templates/logs.php:45
+msgid "You can set a custom log directory by adding %1$s to your %2$s file."
+msgstr ""
+
+#: templates/logs.php:50
+msgid "The directory needs to be writable and ideally outside of the web server root."
+msgstr ""
+
+#: templates/logs.php:62
+msgid "There are no logs at the moment."
+msgstr ""
+
+#: templates/logs.php:69
+msgid "Logging is enabled"
+msgstr ""
+
+#: templates/logs.php:71
+msgid "To disable logging remove %1$s from your %2$s file."
+msgstr ""
+
+#: templates/logs.php:80
+msgid "Logs directory is not writable."
+msgstr ""
+
+#: templates/logs.php:87
+msgid "Logs directory: %s"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Trashed"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Private"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgctxt "Suffix for a duplicated calendar, %s = current date"
+msgid " (copy %s)"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Public"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Trash"
+msgstr ""
+
+#: build/admin.js:1
+#: build/blocks.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/blocks.js:1
+#: dist/shortcode.js:1
+msgid "Failed fetching calendars"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Failed saving calendars"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Failed fetching settings schema"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Failed fetching events"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Failed creating event"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Failed updating event"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Personal data removed"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Failed removing personal data"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Failed deleting event"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Failed deleting event permanently"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Failed fetching event"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Failed fetching template strings"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Failed fetching price"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Invalid response."
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Generated test PDF"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Failed generating test PDF"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Regenerated PDF"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Failed regenerating PDF"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Sent invoice e-mail"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Failed sending invoice e-mail"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Sent reminder e-mail"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Failed sending reminder e-mail"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Undo"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Redo"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Save"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Prices"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Event is in another calendar. Change calendars to view event?"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Failed fetching event info"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgctxt "Price label when price is 0"
+msgid "Free"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "All day"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Week"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Day"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Month"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Previous"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Next"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Yesterday"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Tomorrow"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Today"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Agenda"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "There are no events in this range."
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "+%s more"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Public link for the event"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Public link for the booking"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Booker"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Create"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Back to calendar"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Delete from cart"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Make private"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Make public"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Restore from trash"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Delete permanently"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Order ID..."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Attach"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Invalid value: %s"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Send invoice"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "When a booking's public link is visited then an invoice e-mail is sent automatically. This action allows you to send it if the booking was created in the admin dashboard and you would like to notify the client."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Mark invoice sent"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "When a booking's public link is visited then an invoice e-mail is sent automatically. If you don't want that to happen you can mark the e-mail as \"sent\" without sending it."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Resend invoice"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Send an invoice e-mail again."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Send reminder"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Send a reminder e-mail. Once sent, if automatic reminders are enabled it will not send another reminder for this event."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Mark reminder sent"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "If you don't want to send a reminder for this booking you can mark it as \"sent\" without sending it which also prevents sending an automatic reminder in the future."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Resend reminder"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Send a reminder e-mail again."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "View PDF invoice"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Opens a link to the generated PDF invoice."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Regenerate PDF invoice"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Regenerate the PDF invoice. The invoice can be automatically regenerated whenever event data changes if the \"Settings -> PDF -> Automatic regeneration\" option is enabled, but you may wish to manually regenerate when you modify the PDF settings or template."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "View transaction data"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Displays the raw transaction data that payment gateway provides based on the stored transaction ID."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Detach from order"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Removes this booking from a WooCommerce order. You can then attach it to another order by specifying the order ID."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Remove personal data"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Strips all personal data from the booking (name, e-mail, phone, additional info, transaction ID, PDF invoice) and sets the status to \"Archived\"."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Get link"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Provides a direct link to an event."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Help"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Choose an action..."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Perform selected action"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Event link"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Specify the page URL that the calendar is on at Settings -> Calendar -> URL."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Following a link to an event navigates the calendar to the event's date and highlights it."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Event date"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Event date..."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Open booking modal automatically"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Open event content modal automatically"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Opens in new tab"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Copy link"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Copied to clipboard"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Close"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Stop editing"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Edit event"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Bookings"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Add booking"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Move event to a different date"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgctxt "Price per hour"
+msgid "%s/hr"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgctxt "Price per unit"
+msgid "%s/pc"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Disabled"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgctxt "Extra (type: duration) input label"
+msgid "Duration"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Duration is longer than the event."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgctxt "Extra (type: units) input label"
+msgid "Amount"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgctxt "Extra (type: units) input units"
+msgid "pc"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Delete \"%s\" file?"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Failed deleting file"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Field"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Determines the price for booking this event."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Limit"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgctxt "Limit: n bookings"
+msgid "bookings"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "unlimited"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "How many times can this event be booked."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Interval"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Dates"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Days"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Business days"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Weeks"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Months"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Years"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Repeat type"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgctxt "Every n days/weeks/months"
+msgid "Every"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Units"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Repeat days"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Add date..."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Selected"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Remove %s from selected dates."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Prevent overlap"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Hide when overlapping with existing (non-repeating) events"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "repeat"
+msgid_plural "repeats"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "OR"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Until"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Add final date..."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Ignore"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Add ignored date..."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Ignored"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Remove %s from ignored dates."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "None"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgctxt "Title for info about templates with the block editor"
+msgid "Notice"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "While the WordPress block editor can be used to edit template settings and event content, all of its features are not fully supported and the outcome depends on the context where the content is used. Treat it as a basic textarea with some benefits, don't expect WYSIWYG results from this editor, test and verify after making changes."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "E-mail templates include a subset of the WordPress core block styles so simple blocks like header, button, image should work well. Most e-mail clients don't support CSS flex, so tables should be used instead of columns."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "PDF templates do not support most of the block styles, so it's best to use basic paragraphs or an HTML block."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Available template strings"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Template string"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Example value"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Switch to text mode"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Switch to visual mode"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Cancel"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Update"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Repeat"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Title"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Content"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Bookable"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Failed fetching transaction data"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Transaction"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Time until reminder"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Not applicable"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Event is not public"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Event is not confirmed"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Sent"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Automatic reminders are not enabled"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Event already started"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Event was created too late for a reminder"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Pending"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Service %s not found."
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Total price"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Payment method"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Order"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Notes"
+msgstr ""
+
+#: build/admin.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/shortcode.js:1
+msgid "Payment type"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Billing info can be changed by editing the order: "
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "View raw data"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Raw data"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Event %s not found."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Discard draft"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Reload"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Include events older than a week"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Click and drag in the calendar to add a new event."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Click on an existing event in the calendar to edit it."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Legend"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Price name..."
+msgstr ""
+
+#: build/admin.js:1
+#: dev/AddHolidays.js:144
+#: dist/admin.js:1
+msgid "Add"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Rule name..."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Duplicate"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Delete"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "ID"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Exists"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Imported"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Import a copy"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Price with this ID already exists, create a new price with the imported data."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Overwrite"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Price with this ID already exists, overwrite it with the imported data."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Import"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Disable"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Enable"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Unable to parse file."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Export"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Select services..."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Select extras..."
+msgstr ""
+
+#: build/admin.js:1
+msgctxt "Price modification type"
+msgid "Modify price per hour"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Cumulative amongst rules."
+msgstr ""
+
+#: build/admin.js:1
+msgctxt "Price modification type"
+msgid "Set price per hour"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Last rule to apply will determine the new price per hour for the matching time period."
+msgstr ""
+
+#: build/admin.js:1
+msgctxt "Price modification type"
+msgid "Set total price"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Applies a fixed price for the whole duration of the event. Does not apply to the cost of extras."
+msgstr ""
+
+#: build/admin.js:1
+msgctxt "Price modification type"
+msgid "Modify final price"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Modifies the final price for the event duration and extras added up."
+msgstr ""
+
+#: build/admin.js:1
+msgctxt "Price modification type"
+msgid "Set final price"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Apply a fixed price for the event duration and extras added up."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Alter price by percent value"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Alter price by fixed amount"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Modified price per hour when this rule applies."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Value"
+msgstr ""
+
+#: build/admin.js:1
+#: dev/AddHolidays.js:109
+msgid "Modifier"
+msgstr ""
+
+#: build/admin.js:1
+msgid "There are no price rules for this calendar."
+msgstr ""
+
+#: build/admin.js:1
+msgctxt "Group condition"
+msgid "AND"
+msgstr ""
+
+#: build/admin.js:1
+msgctxt "Group condition"
+msgid "OR"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Pricing rules can be added to modify the calendar's price per hour based on date, time, duration or coupons."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Current calendar's initial price per hour: %s"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Price per hour and currency can be changed from Settings -> Pricing."
+msgstr ""
+
+#: build/admin.js:1
+msgid "After adding new rules, test them on the front end to ensure they work as you intended."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Price rule types"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Show %s more"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Service name..."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Fixed duration"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Service with a fixed hourly price and duration."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Loose duration"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Service with a fixed hourly price for any duration."
+msgstr ""
+
+#: build/admin.js:1
+msgctxt "Service availability type"
+msgid "Always"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Description"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Availability"
+msgstr ""
+
+#: build/admin.js:1
+msgid "There are no services for this calendar."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Service \"%s\" description"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Select a service type"
+msgstr ""
+
+#: build/admin.js:1
+msgctxt "Per hour"
+msgid "/hr"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Services allow the user to book a time with a predefined duration and price."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Service types"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Extra name..."
+msgstr ""
+
+#: build/admin.js:1
+msgctxt "Extra pricing type"
+msgid "Fixed"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Adds a fixed amount to the price of the booking."
+msgstr ""
+
+#: build/admin.js:1
+msgctxt "Extra pricing type"
+msgid "Duration"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Allows to select a time duration shorter or as long as the booking. Price will be calculated based on the duration."
+msgstr ""
+
+#: build/admin.js:1
+msgctxt "Extra pricing type"
+msgid "Units"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Allows to choose a numeric value. Price will be calculated based on the amount selected."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Pricing"
+msgstr ""
+
+#: build/admin.js:1
+msgid "There are no extras for this calendar."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Select a pricing type"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Extras can be selected by the user to request additional goods or services for an extra cost when creating a booking."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Extra types"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Value..."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Add option"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Label"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Field label..."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Placeholder"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Field placeholder..."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Default"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Default value..."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Default checked"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Options"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgctxt "Minimum"
+msgid "Min"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgctxt "Maximum"
+msgid "Max"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Required"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Accepted mime types"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Maximum file size"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgctxt "Megabytes"
+msgid "MB"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Horizontal"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Link"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Terms and conditions link..."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Select field type..."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Reset to default"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Fields were reset to default"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Decrement"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Increment"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Field type"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Field settings"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "There are no fields for this calendar."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Columns"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Fields can be used to collect info about the booker and their preferences."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Default fields (First name, Last name, E-mail, Phone, Additional info and Terms, marked in red) are populated automatically from WooCommerce order info."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Payment type name..."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Amount"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgctxt "Payment type amount value unit"
+msgid "%"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Unavailable"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Payment types allow the user to choose how big percentage of the total booking cost to pay up front. When a payment type with an amount less than 100 is used then the invoice will reflect the smaller value and upon successful payment the booking status will be changed to \"Escrow paid\" instead of \"Paid in full\"."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Payment types"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "When no payment methods are enabled an \"invoice\" e-mail is still sent confirming the booking. You can optionally include a PDF invoice in that e-mail by enabling the \"Settings -> PDF -> Send invoice without payment method\" option."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Payment methods"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Payment is handled by WooCommerce"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Bookings in this calendar are added to WC cart and payment is handled in WC checkout."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "If you wish to stop using WC then remove this calendar's association with a WC product from Settings -> Calendar -> Product."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Preview"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Failed fetching e-mail preview"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "E-mail preview"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Current time in selected timezone"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "UTC offset"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Localized time"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Week starts on"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Test PDF generation"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Generate a test PDF file to ensure the server is capable."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Generate test PDF"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Select calendar..."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Remove"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "E-mail..."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "(no title)"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Clear"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Type product name to search..."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgctxt "Setting category title"
+msgid "Calendar"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgctxt "Setting category title"
+msgid "Pricing"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgctxt "Setting category title"
+msgid "Locale"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgctxt "Setting category title"
+msgid "Booking"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgctxt "Setting category title"
+msgid "E-mail"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgctxt "Setting category title"
+msgid "PDF"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgctxt "Setting category title"
+msgid "Miscellaneous"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "The name of this calendar."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Calendar name..."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Default value"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Events"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Fields"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "WC"
+msgstr ""
+
+#: build/admin.js:1
+#: build/blocks.js:1
+#: dist/admin.js:1
+#: dist/blocks.js:1
+msgid "Settings"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Return to calendars list"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Visit calendar"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Manage"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Copied shortcode to clipboard"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Paste it to any page to display the booking calendar."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Copy shortcode"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Duplicate calendar"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Delete calendar"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Calendar with this ID already exists, create a new calendar with the imported data."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Calendar with this ID already exists, overwrite it's settings with the imported data."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Premium"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Documentation"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Support"
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "A calendar contains bookings and events. Bookings in a calendar cannot overlap, but you can create multiple calendars such as \"Room 1\" and \"Room 2\" to have multiple bookings for different resources or services at the same time. Each calendar has their own settings for booking availability times, how much it costs, payment, notification e-mails etc."
+msgstr ""
+
+#: build/admin.js:1
+#: dist/admin.js:1
+msgid "Calendars can be exported with their settings, prices, extras, fields and payment configurations (events not included). Using the exported file it's then possible to import one or all the calendars from it. Calendar events are a WordPress custom post type, to export and import them Tools in the WordPress admin dashboard can be used."
+msgstr ""
+
+#: build/admin.js:1
+#: build/blocks.js:1
+#: build/shortcode.js:1
+#: dist/admin.js:1
+#: dist/blocks.js:1
+#: dist/shortcode.js:1
+msgid "Retry"
+msgstr ""
+
+#: build/blocks.js:1
+#: dist/blocks.js:1
+msgctxt "White label block title"
+msgid "Booking calendar"
+msgstr ""
+
+#: build/blocks.js:1
+#: dist/blocks.js:1
+msgid "Booking Weir calendar"
+msgstr ""
+
+#: build/blocks.js:1
+#: dist/blocks.js:1
+msgid "Display a booking calendar."
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Button that triggers booking, displayed in the calendar for selected or predefined time slots"
+msgid "Book"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Unknown"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Timezone difference"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Times are booked in the %s timezone, your browser is using %s timezone. The time difference is %s."
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Failed fetching service description."
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Button text that displays a modal with service description."
+msgid "Info"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Button text when this service is selected, displayed above the calendar"
+msgid "Selected"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Button that selects a service to book, displayed above the calendar"
+msgid "Select"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Message when `bw_validate_event` filter returned false."
+msgid "Unable to book here."
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Title of the currently selected range in the calendar (displayed in Agenda)"
+msgid "Selection"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Please select a service from above."
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Go to today"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Open calendar"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Select a date..."
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Week number {0}"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Previous month"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Next month"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Previous year"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Next year"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Previous year range"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Next year range"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Close"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Selected date {0}"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Today's date {0}"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "{0}, select to change the year"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "{0}, select to change the month"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "A date selection is required"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Manually entered date is not in correct format."
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "The selected date is from the restricted range."
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Select a date."
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Input a date between {0} and {1}."
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Input a date starting from {0}."
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Datepicker"
+msgid "Input a date ending at {0}."
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Localized formatted date"
+msgid "No times are available on %s."
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Booking modal back button"
+msgid "Back"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Booking modal forward button"
+msgid "Proceed"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Booking info"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Extra (type: Per hour) input label."
+msgid "Duration"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Extra (type: Units) input label."
+msgid "Amount"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "pc"
+msgid_plural "pcs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "coupon input placeholder"
+msgid "Coupon..."
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Apply coupon"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "File is required"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "File size must me smaller than %dmb"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Booking modal first step title"
+msgid "Booking"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Booking modal add to cart button"
+msgid "Add to cart"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Select..."
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "%s has been selected."
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Booking modal terms and conditions checkbox label"
+msgid "I agree with the %1$sterms and conditions%2$s"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "No additional info is required, please proceed."
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Booking modal info collection title"
+msgid "Info"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Test"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Booking modal final step title"
+msgid "Confirm booking"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgctxt "Booking modal confirm booking button"
+msgid "Book"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Booking unavailable. Error: %s."
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "Calendar with ID %s not found"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "No calendar ID"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "No data"
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "End time is on the next day."
+msgstr ""
+
+#: build/shortcode.js:1
+#: dist/shortcode.js:1
+msgid "This service can only be booked between %s and %s."
+msgstr ""
+
+#: dev/AddHolidays.js:64
+#: dev/AddHolidays.js:75
+msgid "Add holidays"
+msgstr ""
+
+#: dev/AddHolidays.js:79
+msgid "Country"
+msgstr ""
+
+#: dev/AddHolidays.js:84
+msgid "Select a country"
+msgstr ""
+
+#: dev/AddHolidays.js:102
+msgid "Modify"
+msgstr ""
+
+#: dev/AddHolidays.js:144
+msgid "Add again"
+msgstr ""

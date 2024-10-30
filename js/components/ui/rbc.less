@@ -1,0 +1,126 @@
+/**
+ * Shared RBC styles.
+ */
+.bw-root {
+  .rbc-calendar {
+    .rbc-time-view {
+      .rbc-time-header {
+        // display: none;
+        .rbc-header {
+          &:not(.rbc-today) a {
+            /* Not really links. */
+            text-decoration: none;
+            box-shadow: none;
+          }
+        }
+        .rbc-allday-cell {
+          display: none;
+        }
+        & + .rbc-time-content {
+          border-top: 0;
+        }
+      }
+      // .rbc-timeslot-group {
+      //   min-height: 100px;
+      // }
+      .rbc-day-slot {
+        .rbc-events-container {
+          margin-right: 0;
+        }
+      }
+    }
+
+    &:not(.bw-mode-slots) {
+      .rbc-time-view {
+        .rbc-time-column:not(.rbc-slot-selecting) {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .rbc-time-view {
+      border-radius: 4px;
+    }
+
+    .rbc-agenda-view {
+      /**
+      * Reset tables.
+      */
+      table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+      }
+      table {
+        table-layout: auto;
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+
+      display: block; /* Fix weird flex. */
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background: #f3f4f5;
+      table {
+        td, th {
+          border-color: #ddd;
+        }
+      }
+      & > table.rbc-agenda-table {
+        border: 0;
+        margin-bottom: 0;
+        thead {
+          tr {
+            th.rbc-header {
+              font-size: 1em;
+              line-height: 1;
+              background-color: #f9fafb;
+              padding: 0.75em 1em;
+              border-top: 0;
+            }
+          }
+        }
+        // tr > .rbc-agenda-time-cell:first-child {
+        //   border-left: 1px solid #ddd;
+        // }
+      }
+      .rbc-agenda-content {
+        background: #fff;
+        table.rbc-agenda-table {
+          border: 0;
+          tbody {
+            tr {
+              td {
+                padding: 0.5em 1em;
+                border-bottom: 1px solid #ddd;
+              }
+              // &:last-child {
+              //   td {
+              //     border-bottom: 0;
+              //   }
+              // }
+            }
+          }
+        }
+      }
+      .rbc-header-overflowing + .rbc-agenda-content {
+        table.rbc-agenda-table {
+          tbody {
+            tr:last-child {
+              td {
+                border-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+      .rbc-agenda-empty {
+        display: block;
+        padding: 1em;
+      }
+    }
+  }
+}

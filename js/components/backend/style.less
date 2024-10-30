@@ -1,0 +1,62 @@
+/**
+ * Back end only styles.
+ */
+#calendar-view {
+  .rbc-calendar {
+    .rbc-time-view {
+      /**
+      * Allow drag over.
+      */
+      padding-bottom: 1.5em;
+      /**
+       * Hide events that don't fit in the time limit, causing a scrollbar.
+       */
+      // .rbc-event[style*="top: 99."] {
+      //   display: none;
+      // }
+      .rbc-time-header {
+        .rbc-header {
+          &.rbc-today {
+            background: transparent;
+          }
+        }
+      }
+    }
+    .toolbar-label {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+    }
+
+    .rbc-agenda-content {
+      overflow-x: hidden;
+      table.rbc-agenda-table {
+        tbody {
+          tr {
+            td.rbc-agenda-event-cell {
+              padding: 0;
+              .ui.mini-event.segment {
+                padding: 0.5em 0.75em;
+                white-space: normal;
+                .ui.label {
+                  margin: 0 0 0 0.25em;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/**
+ * Block editor.
+ */
+#editor {
+  [data-type="core/html"],
+  [data-type="core/shortcode"] {
+    textarea.block-editor-plain-text {
+      width: 100%;
+    }
+  }
+}
